@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/armor_complete_random"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/random_weapon"
+        }
+      ]
+    }
+  ]
+}

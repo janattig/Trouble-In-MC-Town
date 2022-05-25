@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_random",
+          "weight": 6
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:random_items/levitating_splash_potion",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:random_items/potion_of_invisibility",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:random_items/custom_arrows",
+          "weight": 4
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:lootchest_lucky",
+          "weight": 4
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            [
+              {
+                "text": "(designed for a traitor)",
+                "color": "#ff5555",
+                "italic": false
+              }
+            ]
+          ],
+          "replace": false
+        }
+      ]
+    }
+  ]
+}

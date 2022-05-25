@@ -1,0 +1,174 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:1,Amplifier:1,Duration:1600}],display:{Name:\"\\\"Simple Potion of Agility\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:1,Amplifier:3,Duration:1000}],display:{Name:\"\\\"Potion of Agility\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:1,Amplifier:5,Duration:600}],display:{Name:\"\\\"Strong Potion of Agility\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:8,Amplifier:1,Duration:1000}],display:{Name:\"\\\"Simple Potion of High Jump\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:8,Amplifier:2,Duration:400}],display:{Name:\"\\\"Potion of High Jump\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:8,Amplifier:4,Duration:200}],display:{Name:\"\\\"Strong Potion of High Jump\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:6,Amplifier:1},{Id:23,Amplifier:1}],display:{Name:\"\\\"Simple Potion of Instant Healing\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:6,Amplifier:2},{Id:23,Amplifier:2}],display:{Name:\"\\\"Potion of Instant Healing\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:6,Amplifier:4},{Id:23,Amplifier:4}],display:{Name:\"\\\"Strong Potion of Instant Healing\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:5,Amplifier:0,Duration:1000}],display:{Name:\"\\\"Simple Potion of Strength\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:5,Amplifier:2,Duration:600}],display:{Name:\"\\\"Potion of Strength\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:5,Amplifier:4,Duration:400}],display:{Name:\"\\\"Strong Potion of Strength\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:11,Amplifier:0,Duration:600},{Id:22,Amplifier:0,Duration:1200}],display:{Name:\"\\\"Simple Potion of Resistance\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:11,Amplifier:2,Duration:400},{Id:22,Amplifier:1,Duration:700}],display:{Name:\"\\\"Potion of Resistance\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:11,Amplifier:4,Duration:200},{Id:22,Amplifier:2,Duration:300}],display:{Name:\"\\\"Strong Potion of Resistance\\\"\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

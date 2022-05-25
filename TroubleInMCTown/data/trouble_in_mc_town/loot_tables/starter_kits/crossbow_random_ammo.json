@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/crossbow_low_ammo",
+          "weight": 8
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/crossbow_medium_ammo",
+          "weight": 4
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/crossbow_high_ammo",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "weight": 5,
+          "name":   "trouble_in_mc_town:lootchests/high_quality_weapon"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "weight": 5,
+          "name":   "trouble_in_mc_town:lootchests/high_quality_armor"
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 3,
+          "name":   "minecraft:golden_apple"
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 1,
+          "name":   "minecraft:enchanted_golden_apple"
+        }
+      ]
+    }
+  ]
+}

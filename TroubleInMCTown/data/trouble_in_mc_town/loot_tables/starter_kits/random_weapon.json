@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/sword_shield",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/axe_shield",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/sword_random",
+          "weight": 3
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/axe_random",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/trident_random",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/bow_random_ammo",
+          "weight": 5
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/crossbow_random_ammo",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

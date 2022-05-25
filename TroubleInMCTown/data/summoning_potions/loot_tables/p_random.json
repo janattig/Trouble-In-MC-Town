@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_blaze"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_creeper"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_enderman"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_phantom"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_shulker"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_silverfish"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_skeleton"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_slime"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_spider"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_wither"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "summoning_potions:p_zombie"
+        }
+      ]
+    }
+  ]
+}

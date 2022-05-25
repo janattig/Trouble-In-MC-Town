@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/helmet_random"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/chestplate_random"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/leggings_random"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:starter_kits/boots_random"
+        }
+      ]
+    }
+  ]
+}

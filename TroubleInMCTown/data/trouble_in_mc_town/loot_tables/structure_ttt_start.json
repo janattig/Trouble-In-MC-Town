@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{mode:\"LOAD\",name:\"trouble_in_mc_town:ttt_start_block\",sizeX:5,sizeZ:5,posX:-2,posY:0,posZ:-2,rotation:\"NONE\",showboundingbox:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

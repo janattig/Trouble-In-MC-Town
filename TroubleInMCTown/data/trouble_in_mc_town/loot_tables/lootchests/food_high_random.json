@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:pumpkin_pie",
+          "weight": 5
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:bread",
+          "weight": 5
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_salmon",
+          "weight": 4
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_porkchop",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_mutton",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_chicken",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_beef",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

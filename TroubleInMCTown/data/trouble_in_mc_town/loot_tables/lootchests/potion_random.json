@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:lootchests/potion_harm_random",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:lootchests/potion_help_random",
+          "weight": 4
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:milk_bucket",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

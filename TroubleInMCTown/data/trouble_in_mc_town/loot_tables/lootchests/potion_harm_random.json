@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:15,Duration:300}],display:{Name:\"\\\"Splash-Potion of Instant Blindness\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:15,Duration:600}],display:{Name:\"\\\"Strong Splash-Potion of Instant Blindness\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:2,Duration:600},{Id:4,Duration:600},{Id:9,Duration:600},{Id:17,Duration:600},{Id:27,Duration:600}],display:{Name:\"\\\"The Hangover Splash-Potion\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:0}],display:{Name:\"\\\"Small Potion Bomb\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:1}],display:{Name:\"\\\"Potion Bomb\\\"\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:2}],display:{Name:\"\\\"Strong Potion Bomb\\\"\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
