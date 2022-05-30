@@ -1,4 +1,4 @@
-# FUNCTION TO START A ROUND OF TTT
+# FUNCTION TO START A ROUND OF TTT (called from outside)
 
 # call countdown function for next tick
 execute if score #round_starting ttt_booleans matches 1 run tellraw @p ["",{"text":"> There is a round of TTT currently starting, cannot start another one...","color":"white"}]
