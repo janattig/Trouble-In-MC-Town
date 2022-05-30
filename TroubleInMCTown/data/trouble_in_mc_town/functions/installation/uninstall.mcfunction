@@ -16,6 +16,13 @@ team remove team_traitor
 team remove team_spectator
 team remove team_ttt_player
 
+# remove tags from everyone
+tag @a remove ttt_traitor
+tag @a remove ttt_innocent
+tag @a remove ttt_want_to_participate
+tag @a remove ttt_participating
+tag @a remove ttt_alive
+
 # remove player in team count
 scoreboard objectives remove ttt_num_players
 scoreboard objectives remove ttt_booleans
