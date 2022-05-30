@@ -17,6 +17,7 @@ function trouble_in_mc_town:utility/find_traitor
 
 # designate roles
 tag @a remove ttt_traitor
+tag @a remove ttt_become_traitor
 tag @a remove ttt_innocent
 tag @a[tag=ttt_want_to_participate, tag=!ttt_become_traitor] add ttt_innocent
 tag @a[tag=ttt_want_to_participate, tag=ttt_become_traitor] add ttt_traitor
