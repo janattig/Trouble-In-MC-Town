@@ -13,7 +13,7 @@ execute if score Traitor ttt_num_players matches 1 run tellraw @s ["",{"text":">
 
 # tell player as what he is playing as the one of the traitors
 execute if score Traitor ttt_num_players matches 2.. run tellraw @s ["",{"text":"> You are one of the "},{"text":"Traitors","bold":true,"color":"red"},{"text":" ("},{"selector":"@s"},{"text":") <--"}]
-execute if score Traitor ttt_num_players matches 2.. at @s run tellraw @s ["",{"text":"  together with ","color":"white"},{"selector":"@a[tag=ttt_traitor, distance=0.0001..]"}]
+execute if score Traitor ttt_num_players matches 2.. at @s run tellraw @s ["",{"text":"  together with ","color":"white"},{"selector":"@a[tag=ttt_traitor, distance=0.0001..]","color":"red"}]
 
 # tell the objective of the TRAITOR team
 tellraw @s ["",{"text":"> Objective:"}]
@@ -24,7 +24,7 @@ tellraw @s ["",{"text":"  > "},{"text":"Special Traitor loot can be found if you
 title @s times 10 120 50
 title @s title {"text":"Traitor","bold":true,"color":"red"}
 execute if score Traitor ttt_num_players matches 1 run title @s subtitle ["", {"text":"(Your role, ","color":"white"},{"selector":"@s","bold":true},{"text":")"}]
-execute if score Traitor ttt_num_players matches 2.. run title @s subtitle ["", {"text":"(Your role, ","color":"white"},{"selector":"@s","bold":true}, {"text":" together with ","color":"white"},{"selector":"@a[tag=ttt_traitor,distance=0.0001..]","bold":true},{"text":")"}]
+execute if score Traitor ttt_num_players matches 2.. run title @s subtitle ["", {"text":"(Your role, ","color":"white"},{"selector":"@s","bold":true}, {"text":" together with ","color":"white"},{"selector":"@a[tag=ttt_traitor,distance=0.0001..]","bold":true,"color":"red"},{"text":")"}]
 
 # change into adventure mode
 gamemode adventure @s
