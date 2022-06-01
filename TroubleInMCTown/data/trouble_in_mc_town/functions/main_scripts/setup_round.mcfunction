@@ -45,7 +45,8 @@ execute as @a[tag=ttt_want_to_participate] run tellraw @a[tag=ttt_want_to_partic
 # tell people round is starting
 execute as @a[tag=ttt_want_to_participate] run title @s times 10 70 20
 execute as @a[tag=ttt_want_to_participate] run title @s title ["",{"text":"Round starting ...","bold":true}]
-execute as @a[tag=ttt_want_to_participate] run title @s subtitle ["", {"text":"> "}, {"score":{"name":"#Total","objective":"ttt_num_players"}}, {"text":" players <"}]
+execute if score #debugging ttt_booleans matches 1 run execute as @a[tag=ttt_want_to_participate] run title @s subtitle ["", {"text":"> "}, {"score":{"name":"#Total","objective":"ttt_num_players"}}, {"text":" players  +  (debug) <"}]
+execute unless score #debugging ttt_booleans matches 1 run execute as @a[tag=ttt_want_to_participate] run title @s subtitle ["", {"text":"> "}, {"score":{"name":"#Total","objective":"ttt_num_players"}}, {"text":" players <"}]
 
 
 # backup the players gamemode
