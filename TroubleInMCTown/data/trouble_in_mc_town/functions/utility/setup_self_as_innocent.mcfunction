@@ -18,7 +18,7 @@ tellraw @s ["",{"text":"  > "},{"text":"Traitors can find special loot if they w
 
 title @s times 10 120 50
 title @s title {"text":"Innocent","bold":true,"color":"blue"}
-title @s subtitle ["", {"text":"(Your role, ","color":"white"},{"selector":"@s"},{"text":")"}]
+#title @s subtitle ["", {"text":"(Your role, ","color":"white"},{"selector":"@s"},{"text":")"}]
 
 # change into adventure mode
 gamemode adventure @s
