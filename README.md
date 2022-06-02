@@ -51,10 +51,7 @@ So, have fun playing!
 
 
 
-# More details
-
-
-### Complete datapack contents
+# Datapack details
 
 In total, the datapack provides the following:
 1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
@@ -64,6 +61,7 @@ In total, the datapack provides the following:
     * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
     * Summoning Splash Potions which summon monsters upon impact
 4. [**Start structure**](https://github.com/janattig/Trouble-In-MC-Town#start-structure) - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons.
+
 
 
 
@@ -80,11 +78,27 @@ In total, the datapack provides the following:
 
 
 
+### Debug mode
+
+Since the TTT gamemode inherently is a *multiplayer* gamemode, any round consisting only of a single player will end immediately (since its team is the only reamining team, i.e. it is winning). In other words, if you want to test a map or check out how the loot works, you cannot just start a round of TTT on your own.
+
+To do so regardless, the datapack implements a *debugging mode*. As long as this mode is active, a fictitious Innocent participates in the round so that you as the only player (and therefore Traitor) can wander around without the round ending.
+
+To enable and disable the debugging mode, two commands are provided:
+```
+/function trouble_in_mc_town:debugging_on
+/function trouble_in_mc_town:debugging_off
+```
+which enable and disable the debugging mode respectively.
+
+Note that for ending a round with debug mode active, you have to either loose, end the round manually or disable the debug mode.
+
+
 
 
 ### Start Structure
 
-To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the debug mode in which an imaginary second player joins the game so features can be explored solo without the round ending.
+To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the [debug mode](https://github.com/janattig/Trouble-In-MC-Town#debug-mode).
 
 The start structure can be obtained with the command
 ```
