@@ -24,3 +24,18 @@ In total, the datapack provides:
 ### How to play
 
 ... TODO ...
+
+
+
+### Start Structure
+
+To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the debug mode in which an imaginary second player joins the game so features can be explored solo without the round ending.
+
+The start structure can be obtained with the command
+```
+/loot give @s loot trouble_in_mc_town:structure_ttt_start
+```
+which spawns a structure block with the exact reference of the structure in the player inventory. This structure block has to be placed and the structure has to be loaded.
+
+Upon loading, the structure looks like this:
+![](images/start_structure.png)
