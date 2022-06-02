@@ -80,7 +80,14 @@ When the round is ending, all loot chests will be purged, so no items persist be
 
 ### Traitor loot
 
-... TODO ...
+Traitors which open chests far away from Innocents also have a chance of finding valuable Traitor loot. These special items consist of
+1. **Special Minecraft items** - Items like weapons and armor made out of diamond, with powerful enchantments, bows with OP enchantments, Enchanted Golden Apples or Invisibility potions
+2. **Custom Arrows** - These arrows come with special effects unlike any ordinary Minecraft tipped arrow. The implementation of custom arrows is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0). Implemented effects range from Area Poison, over Lightning strikes and TNT to arrows which make players drop their inventory as well as teleport arrows.
+3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact.
+
+![](images/traitor_loot.png)
+
+All items which are considered special Traitor loot have the `(designed for a Traitor)` tag written in their description.
 
 
 
