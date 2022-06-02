@@ -67,7 +67,13 @@ In total, the datapack provides the following:
 
 ### Loot chests
 
-... TODO ...
+During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack.
+
+In general, the loot in these chests contains food, weapons, armor and some potions. Some chests can also contain special loot which consists of diamond weapons and armor as well as strong minecraft items. Traitors which wander far away from Innocents can also find special [Traitor-loot](https://github.com/janattig/Trouble-In-MC-Town#traitor-loot), consisting of special items.
+
+![](images/loot_chests.png)
+
+When the round is ending, all loot chests will be purged, so no items persist beyond the scope of the round.
 
 
 
