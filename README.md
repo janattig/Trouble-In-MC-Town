@@ -73,8 +73,9 @@ In general, the loot in these chests contains food, weapons, armor and some poti
 
 ![](images/loot_chests.png)
 
-When the round is ending, all loot chests will be purged, so no items persist beyond the scope of the round.
+Normal chest loot is drawn from the loot table `trouble_in_mc_town:lootchest_main` and rare lucky loot is drawn from the loot table `trouble_in_mc_town:lootchest_lucky`.
 
+When the round is ending, all loot chests will be purged, so no items persist beyond the scope of the round.
 
 
 
@@ -87,8 +88,7 @@ Traitors which open chests far away from Innocents also have a chance of finding
 
 ![](images/traitor_loot.png)
 
-All items which are considered special Traitor loot have the `(designed for a Traitor)` tag written in their description.
-
+All items which are considered special Traitor loot have the `(designed for a traitor)` tag written in their description and come from the loot table `trouble_in_mc_town:traitor_loot`.
 
 
 ### Debug mode
