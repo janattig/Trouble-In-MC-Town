@@ -7,18 +7,6 @@ For getting started, you might want to [install](https://github.com/janattig/Tro
 
 
 
-### Datapack contents
-
-In total, the datapack provides the following:
-1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
-2. **Loot chests** - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
-3. **Special Traitor-loot** - This loot which is exclusive to traitors contains:
-    * Diamond armor and weapons
-    * Enchanted Golden Apples
-    * Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
-    * Splash Potions which can be thrown to summon mobs
-4. **Start structure** - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons. More information on the structure can be found in a later [section](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this Readme.
-
 
 
 ### Installation
@@ -35,11 +23,43 @@ Once the datapack is enabled in your save, you can start a game!
 
 
 
+
+
 ### How to play
 
-... TODO ...
+To play Trouble in MC Town, you have to gather a few friends (remember, this is a *multiplayer* gamemode) and prepare an area for playing with some empty chests. The chests will be filled with loot once you open them while playing, so if there are no chests available, you will not get any loot.
+
+To start rounds of TTT you can either use the [start structure](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this datapack, or just execute the start command
+```
+/function trouble_in_mc_town:setup_round
+```
+which sets up a new round for all players in a 100 block radius around the function caller. Note that players have to be in survival or creative mode in order to participate.
+
+Upon starting the round, all participating players are switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over.
+
+If you want to prematurely end a round, you can use the command
+```
+/function trouble_in_mc_town:cleanup_after_round
+```
+which ends and resets the current round.
+
+So, have fun playing!
 
 
+
+
+
+### Complete datapack contents
+
+In total, the datapack provides the following:
+1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
+2. **Loot chests** - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
+3. **Special Traitor-loot** - This loot which is exclusive to traitors contains:
+    * Diamond armor and weapons
+    * Enchanted Golden Apples
+    * Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
+    * Splash Potions which can be thrown to summon mobs
+4. **Start structure** - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons. More information on the structure can be found in a later [section](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this Readme.
 
 
 
