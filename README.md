@@ -49,21 +49,38 @@ So, have fun playing!
 
 
 
+
+
+# More details
+
+
 ### Complete datapack contents
 
 In total, the datapack provides the following:
 1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
-2. **Loot chests** - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
-3. **Special Traitor-loot** - This loot which is exclusive to traitors contains:
-    * Diamond armor and weapons
-    * Enchanted Golden Apples
-    * Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
-    * Splash Potions which can be thrown to summon mobs
-4. **Start structure** - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons. More information on the structure can be found in a later [section](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this Readme.
+2. [**Loot chests**](https://github.com/janattig/Trouble-In-MC-Town#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
+3. [**Special Traitor-loot**](https://github.com/janattig/Trouble-In-MC-Town#traitor-loot) - This loot which is exclusive to traitors contains:
+    * Special Minecraft items, like Diamond armor and weapons or Enchanted Golden Apples
+    * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
+    * Summoning Splash Potions which summon monsters upon impact
+4. [**Start structure**](https://github.com/janattig/Trouble-In-MC-Town#start-structure) - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons.
 
 
 
-# More details
+### Loot chests
+
+... TODO ...
+
+
+
+
+### Traitor loot
+
+... TODO ...
+
+
+
+
 
 ### Start Structure
 
