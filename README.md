@@ -35,9 +35,9 @@ To start rounds of TTT you can either use the [start structure](https://github.c
 ```
 which sets up a new round for all players in a 100 block radius around the function caller. Note that players have to be in survival or creative mode in order to participate.
 
-Upon starting the round, all participating players are switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over.
+Upon starting the round, all participating players are switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special loot by opening chests far away from Innocents. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
 
-If you want to prematurely end a round, you can use the command
+Once one team has won, the round ends automatically and everyone is teleported back to where they started. If you want to prematurely end a round, you can use the command
 ```
 /function trouble_in_mc_town:cleanup_after_round
 ```
