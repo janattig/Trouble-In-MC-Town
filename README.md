@@ -23,7 +23,17 @@ In total, the datapack provides the following:
 
 ### Installation
 
-... TODO ...
+To install the datapack, download and copy the `TroubleInMCTown` folder into the `datapack` folder of your savegame. Then load your savegame and check if the datapack is already enabled by using the command
+```
+/datapack list
+```
+if the datapack is not yet enabled, you can manually enable it with
+```
+/datapack enable "file/TroubleInMCTown"
+```
+Once the datapack is enabled in your save, you can start a game!
+
+
 
 ### How to play
 
