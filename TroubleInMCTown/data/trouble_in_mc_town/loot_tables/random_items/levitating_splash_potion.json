@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:14882480,display:{Name:'[{\"text\":\"Levitating Splash Potion\",\"italic\":false}]',Lore:['[{\"text\":\"You are not sure but you belive\",\"italic\":false}]','[{\"text\":\"it might make people fly ...\",\"italic\":false}]']},Enchantments:[{}],CustomPotionEffects:[{Id:25,Duration:100,Amplifier:4}]}"
+              "tag": "{CustomPotionColor:14882480,display:{Name:'[{\"text\":\"Levitating Splash Potion\",\"italic\":false}]',Lore:['[{\"text\":\"Makes people fly upwards\",\"italic\":false}]','[{\"text\":\"(Do not throw too close!)\",\"italic\":false}]']},Enchantments:[{}],CustomPotionEffects:[{Id:25,Duration:200,Amplifier:4}]}"
             }
           ]
         }

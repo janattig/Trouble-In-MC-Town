@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:14882480,display:{Name:'[{\"text\":\"Potion of Invisibility\",\"italic\":false}]',Lore:['[{\"text\":\"You are not sure but you belive it\",\"italic\":false}]','[{\"text\":\"might make your character see-through ...\",\"italic\":false}]']},Enchantments:[{}],CustomPotionEffects:[{Id:14,Duration:1200}]}"
+              "tag": "{CustomPotionColor:14882480,display:{Name:'[{\"text\":\"Potion of Invisibility\",\"italic\":false}]',Lore:['[{\"text\":\"Makes your character invisible\",\"italic\":false}]','[{\"text\":\"(Armor items are still visible)\",\"italic\":false}]']},Enchantments:[{}],CustomPotionEffects:[{Id:14,Duration:1200}]}"
             }
           ]
         }
