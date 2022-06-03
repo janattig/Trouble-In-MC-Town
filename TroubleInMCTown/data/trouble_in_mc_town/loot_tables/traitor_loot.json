@@ -27,6 +27,11 @@
           "type":   "minecraft:loot_table",
           "name":   "trouble_in_mc_town:lootchest_lucky",
           "weight": 3
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:random_items/glowing_powder",
+          "weight": 2
         }
       ],
       "functions": [
