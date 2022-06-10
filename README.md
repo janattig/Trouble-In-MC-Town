@@ -27,9 +27,11 @@ Once the datapack is enabled in your save, you can start a game!
 
 ### How to play
 
-To play Trouble in MC Town, you have to gather a few friends (remember, this is a *multiplayer* gamemode) and prepare an area for playing with some empty chests. The chests will be filled with loot once you open them while playing, so if there are no chests available, you will not get any loot.
+To play Trouble in MC Town, you have to
+  1. gather a few friends (remember, this is a *multiplayer* gamemode)
+  2. prepare an area for playing - you can either prepare an area on your own with some empty chests which will be filled with loot once you open them while playing or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) videa) to generate procedural levels for playing Trouble in MC Town.
 
-To start rounds of TTT you can either use the [start structure](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this datapack, or just execute the start command
+To start rounds of TTT you can either use the [start structure](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this datapack (or the PD level), or just execute the start command
 ```
 /function trouble_in_mc_town:setup_round
 ```
