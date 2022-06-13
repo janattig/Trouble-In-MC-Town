@@ -3,7 +3,7 @@
 This Minecraft datapack provides my own adaption of the once popular gamemode Trouble in Terrorist Town (TTT) which is well known from games like Garrys Mod and Counter Strike.
 
 
-For getting started, you might want to [install](https://github.com/janattig/Trouble-In-MC-Town#installation) the datapack and start a round with your friends, following the [*How to play* section](https://github.com/janattig/Trouble-In-MC-Town#how-to-play) of the Readme.
+For getting started, you might want to [install](https://github.com/janattig/Trouble-In-MC-Town#installation) the datapack and start a round with your friends, following the [*How to play* section](#how-to-play) of the Readme.
 
 
 
@@ -31,7 +31,7 @@ To play Trouble in MC Town, you have to
   1. gather a few friends (remember, this is a *multiplayer* gamemode)
   2. prepare an area for playing - you can either prepare an area on your own with some empty chests which will be filled with loot once you open them while playing or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) video) to generate procedural levels for playing Trouble in MC Town.
 
-To start rounds of TTT you can either use the [start structure](https://github.com/janattig/Trouble-In-MC-Town#start-structure) of this datapack (or the PD level), or just execute the start command
+To start rounds of TTT you can either use the [start structure](#start-structure) of this datapack (or the PD level), or just execute the start command
 ```
 /function trouble_in_mc_town:setup_round
 ```
@@ -58,11 +58,11 @@ So, have fun playing!
 In total, the datapack provides the following:
 1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable [here](TroubleInMCTown/data/trouble_in_mc_town/functions/installation/configure.mcfunction)) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
 2. [**Loot chests**](#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
-3. [**Special Traitor-loot**](https://github.com/janattig/Trouble-In-MC-Town#traitor-loot) - This loot which is exclusive to traitors contains:
+3. [**Special Traitor-loot**](#traitor-loot) - This loot which is exclusive to traitors contains:
     * Special Minecraft items, like Diamond armor and weapons or Enchanted Golden Apples
     * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
     * Summoning Splash Potions which summon monsters upon impact
-4. [**Start structure**](https://github.com/janattig/Trouble-In-MC-Town#start-structure) - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons.
+4. [**Start structure**](#start-structure) - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons.
 
 
 
@@ -71,7 +71,7 @@ In total, the datapack provides the following:
 
 During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack.
 
-In general, the loot in these chests contains food, weapons, armor and some potions. Some chests can also contain special loot which consists of diamond weapons and armor as well as strong minecraft items. Traitors which wander far away from Innocents can also find special [Traitor-loot](https://github.com/janattig/Trouble-In-MC-Town#traitor-loot), consisting of special items.
+In general, the loot in these chests contains food, weapons, armor and some potions. Some chests can also contain special loot which consists of diamond weapons and armor as well as strong minecraft items. Traitors which wander far away from Innocents can also find special [Traitor-loot](#traitor-loot), consisting of special items.
 
 ![](images/loot_chests.png)
 
@@ -113,7 +113,7 @@ Note that for ending a round with debug mode active, you have to either loose, e
 
 ### Start Structure
 
-To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the [debug mode](https://github.com/janattig/Trouble-In-MC-Town#debug-mode).
+To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the [debug mode](#debug-mode).
 
 The start structure can be obtained with the command
 ```
