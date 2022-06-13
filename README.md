@@ -56,8 +56,8 @@ So, have fun playing!
 # Datapack details
 
 In total, the datapack provides the following:
-1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
-2. [**Loot chests**](https://github.com/janattig/Trouble-In-MC-Town#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
+1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable [here](TroubleInMCTown/data/trouble_in_mc_town/functions/installation/configure.mcfunction)) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
+2. [**Loot chests**](#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
 3. [**Special Traitor-loot**](https://github.com/janattig/Trouble-In-MC-Town#traitor-loot) - This loot which is exclusive to traitors contains:
     * Special Minecraft items, like Diamond armor and weapons or Enchanted Golden Apples
     * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
