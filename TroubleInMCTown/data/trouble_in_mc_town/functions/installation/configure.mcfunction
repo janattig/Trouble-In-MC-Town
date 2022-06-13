@@ -8,21 +8,21 @@ scoreboard objectives setdisplay sidebar
 
 # GAME DATA
 
-# maximum innocents per traitor
+# maximum innocents per traitor (if played in a group > 15 people)
 scoreboard players set #min_i_per_t ttt_num_players 2
 scoreboard players set #max_i_per_t ttt_num_players 4
 
 
 
-# ROUNT LENGTH
+# ROUND LENGTH
 
-# add information about how long a round is
+# information about how long a round is
 # (mins : tsecs secs)
 scoreboard players set #rl_mins ttt_countdowns 8
 scoreboard players set #rl_tsecs ttt_countdowns 0
 scoreboard players set #rl_secs ttt_countdowns 0
 
-# add information about how long the preparation phase is
+# information about how long the preparation phase is (before roles are distributed)
 # (secs)
 scoreboard players set #rs_secs ttt_countdowns 7
 
