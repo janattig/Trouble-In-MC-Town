@@ -12,12 +12,12 @@ For getting started, you might want to [install](https://github.com/janattig/Tro
 ### Installation
 
 To install the datapack, download and copy the `TroubleInMCTown` folder into the `datapack` folder of your savegame. Then load your savegame and check if the datapack is already enabled by using the command
-```
-/datapack list
+```mcfunction
+datapack list
 ```
 if the datapack is not yet enabled, you can manually enable it with
-```
-/datapack enable "file/TroubleInMCTown"
+```mcfunction
+datapack enable "file/TroubleInMCTown"
 ```
 Once the datapack is enabled in your save, you can start a game!
 
@@ -32,16 +32,16 @@ To play Trouble in MC Town, you have to
   2. prepare an area for playing - you can either prepare an area on your own with some empty chests which will be filled with loot once you open them while playing or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) video) to generate procedural levels for playing Trouble in MC Town.
 
 To start rounds of TTT you can either use the [start structure](#start-structure) of this datapack (or the PD level), or just execute the start command
-```
-/function trouble_in_mc_town:setup_round
+```mcfunction
+function trouble_in_mc_town:setup_round
 ```
 which sets up a new round for all players in a 100 block radius around the function caller. Note that players have to be in survival or creative mode in order to participate.
 
 Upon starting the round, all participating players are switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special loot by opening chests far away from Innocents. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
 
 Once one team has won, the round ends automatically and everyone is teleported back to where they started. If you want to prematurely end a round, you can use the command
-```
-/function trouble_in_mc_town:cleanup_after_round
+```mcfunction
+function trouble_in_mc_town:cleanup_after_round
 ```
 which ends and resets the current round.
 
@@ -100,9 +100,9 @@ Since the TTT gamemode inherently is a *multiplayer* gamemode, any round consist
 To do so regardless, the datapack implements a *debugging mode*. As long as this mode is active, a fictitious Innocent participates in the round so that you as the only player (and therefore Traitor) can wander around without the round ending.
 
 To enable and disable the debugging mode, two commands are provided:
-```
-/function trouble_in_mc_town:debugging_on
-/function trouble_in_mc_town:debugging_off
+```mcfunction
+function trouble_in_mc_town:debugging_on
+function trouble_in_mc_town:debugging_off
 ```
 which enable and disable the debugging mode respectively.
 
@@ -116,8 +116,8 @@ Note that for ending a round with debug mode active, you have to either loose, e
 To provide an easier start into setting up a TTT map which utilizes the Trouble in MC Town datapack, a start structure is provided. This structure is a 5x5 platform which contains command blocks that call the respective functions to *start* and *stop* (or interrupt) rounds of TTT, as well as blocks which *enable* or *disable* the [debug mode](#debug-mode).
 
 The start structure can be obtained with the command
-```
-/loot give @s loot trouble_in_mc_town:structure_ttt_start
+```mcfunction
+loot give @s loot trouble_in_mc_town:structure_ttt_start
 ```
 which spawns a structure block with the exact reference of the structure in the player inventory. This structure block has to be placed and the structure has to be loaded.
 
