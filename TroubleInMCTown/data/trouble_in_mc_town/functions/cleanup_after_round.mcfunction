@@ -20,6 +20,8 @@ clear @a[tag=ttt_participating]
 # dropped items are removed
 kill @e[type=item]
 kill @e[type=experience_orb]
+# everybody can use portals (from procedural dungeons) again
+tag @a remove pd_portal_prevent_tp
 # loot chests are removed
 function trouble_in_mc_town:utility/loot_chests/remove_all_chests
 

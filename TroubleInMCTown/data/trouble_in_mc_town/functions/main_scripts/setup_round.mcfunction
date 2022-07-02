@@ -35,6 +35,9 @@ execute if score #round_running ttt_booleans matches 1 run function trouble_in_m
 # tag all players that want to participate
 tag @a[distance=..100] add ttt_want_to_participate
 
+# prevent use portals (from procedural dungeons)
+tag @a[tag=ttt_want_to_participate] add pd_portal_prevent_tp
+
 # count players and announce
 scoreboard players set #Total ttt_num_players 0
 execute as @a[tag=ttt_want_to_participate] run scoreboard players add #Total ttt_num_players 1
