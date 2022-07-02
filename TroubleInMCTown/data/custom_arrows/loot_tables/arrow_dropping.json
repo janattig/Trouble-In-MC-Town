@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16318412,CustomPotionEffects:[{Id:4b,Amplifier:17,Duration:100}],display:{Name:\"\\\"Stripping Arrow of Unbinding\\\"\",Lore:['[{\"text\":\"Makes the target drop all his items\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16318412,CustomPotionEffects:[{Id:4,Amplifier:17,Duration:100}],display:{Name:\"\\\"Stripping Arrow of Unbinding\\\"\",Lore:['[{\"text\":\"Makes the target drop all his items\",\"italic\":false}]']},HideFlags:32}"
             }
           ]
         }

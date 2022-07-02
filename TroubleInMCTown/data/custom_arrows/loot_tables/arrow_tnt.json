@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16711680,CustomPotionEffects:[{Id:4b,Amplifier:11,Duration:100}],display:{Name:\"\\\"Exploding Arrow of TNT\\\"\",Lore:['[{\"text\":\"Causes a massive explosion on impact\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16711680,CustomPotionEffects:[{Id:4,Amplifier:11,Duration:100}],display:{Name:\"\\\"Exploding Arrow of TNT\\\"\",Lore:['[{\"text\":\"Causes a massive explosion on impact\",\"italic\":false}]']},HideFlags:32}"
             }
           ]
         }

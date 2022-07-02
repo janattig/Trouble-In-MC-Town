@@ -1,6 +1,6 @@
 # extract the current effect to apply
 execute if entity @s[type=arrow] store result score %current_effect ca_effects run data get entity @s CustomPotionEffects[0].Amplifier
-execute if entity @s[type=!arrow] store result score %current_effect ca_effects run data get entity @s ActiveEffects[{Id:4b}].Amplifier
+execute if entity @s[type=!arrow] store result score %current_effect ca_effects run data get entity @s ActiveEffects[{Id:4}].Amplifier
 
 # check what effect should be applied
 execute if score %current_effect ca_effects matches 11 run function custom_arrows:arrow_effects/tnt

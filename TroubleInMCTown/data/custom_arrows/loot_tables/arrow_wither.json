@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:4794185,CustomPotionEffects:[{Id:4b,Amplifier:14,Duration:100}],display:{Name:\"\\\"Withering Arrow of Widespread Pain\\\"\",Lore:['[{\"text\":\"Target area suffers from wither effect\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:4794185,CustomPotionEffects:[{Id:4,Amplifier:14,Duration:100}],display:{Name:\"\\\"Withering Arrow of Widespread Pain\\\"\",Lore:['[{\"text\":\"Target area suffers from wither effect\",\"italic\":false}]']},HideFlags:32}"
             }
           ]
         }

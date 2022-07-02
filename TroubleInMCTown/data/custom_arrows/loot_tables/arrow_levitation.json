@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:9823472,CustomPotionEffects:[{Id:4b,Amplifier:16,Duration:100}],display:{Name:\"\\\"Arrow of Levitation\\\"\",Lore:['[{\"text\":\"Targets in the area start to rise upwards\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:9823472,CustomPotionEffects:[{Id:4,Amplifier:16,Duration:100}],display:{Name:\"\\\"Arrow of Levitation\\\"\",Lore:['[{\"text\":\"Targets in the area start to rise upwards\",\"italic\":false}]']},HideFlags:32}"
             }
           ]
         }

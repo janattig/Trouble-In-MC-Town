@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:392982,CustomPotionEffects:[{Id:4b,Amplifier:13,Duration:100}],display:{Name:\"\\\"Dripping Arrow of the Poison Flood\\\"\",Lore:['[{\"text\":\"Poison spreads in the target area\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:392982,CustomPotionEffects:[{Id:4,Amplifier:13,Duration:100}],display:{Name:\"\\\"Dripping Arrow of the Poison Flood\\\"\",Lore:['[{\"text\":\"Poison spreads in the target area\",\"italic\":false}]']},HideFlags:32}"
             }
           ]
         }
