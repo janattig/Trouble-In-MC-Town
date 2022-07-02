@@ -7,4 +7,4 @@ execute as @s[tag=ttt_traitor] run tag @e[limit=1,tag=ttt_lootchest,sort=nearest
 
 
 # only make it self deploy if the other half does not contain a loot marker
-execute unless entity @e[tag=ttt_lootchest,distance=0.1..1.1] run execute as @e[limit=1,tag=ttt_lootchest,sort=nearest] at @s run function trouble_in_mc_town:utility/loot_chests/as_self_deploy
+execute unless entity @e[tag=ttt_lootchest,distance=0.1..1.1] run execute as @e[limit=1,tag=ttt_lootchest,sort=nearest] at @s run function trouble_in_mc_town:utility/loot_chests/as_self_deploy_rich
