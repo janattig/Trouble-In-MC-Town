@@ -1,6 +1,6 @@
 # Trouble In MC Town
 
-This Minecraft datapack provides my own adaption of the once popular gamemode Trouble in Terrorist Town (TTT) which is well known from games like Garrys Mod and Counter Strike.
+This Minecraft datapack provides my own implementation of the once popular gamemode *Trouble in Terrorist Town (TTT)* which is well known from games like Garrys Mod and Counter Strike.
 
 
 For getting started, you might want to [install](https://github.com/janattig/Trouble-In-MC-Town#installation) the datapack and start a round with your friends, following the [*How to play* section](#how-to-play) of the Readme.
