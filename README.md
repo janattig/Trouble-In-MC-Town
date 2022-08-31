@@ -27,23 +27,25 @@ Once the datapack is enabled in your save, you can start a game!
 
 ### How to play
 
-To play Trouble in MC Town, you have to
+To play Trouble in MC Town, you have to check to prerequisites:
   1. gather a few friends (remember, this is a *multiplayer* gamemode)
-  2. prepare an area for playing - you can either prepare an area on your own with some empty chests which will be filled with loot once you open them while playing or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) video) to generate procedural levels for playing Trouble in MC Town.
+  2. prepare an area for playing: The area in which you want to play should have some empty chests which will be filled with loot once you open them while playing. You can either prepare an area on your own or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) video) to generate procedural levels for playing Trouble in MC Town.
 
-To start rounds of TTT you can either use the [start structure](#start-structure) of this datapack (or the PD level), or just execute the start command
+Then start a round of TTT by executing the start command
 ```mcfunction
 function trouble_in_mc_town:setup_round
 ```
-which sets up a new round for all players in a 100 block radius around the function caller. Note that players have to be in survival or creative mode in order to participate.
+or utilizing the [start structure](#start-structure) of this datapack which you placed in your world. Levels generated from Procedural Dungeons come with their own start structures.
 
-Upon starting the round, all participating players are switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special loot by opening chests far away from Innocents. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
+Starting a round gathers all players in a 100 block radius around the function caller which are either in survival or creative mode. These participating players are then switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or if all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over.
+
+Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special loot by opening chests far away from Innocents. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
 
 Once one team has won, the round ends automatically and everyone is teleported back to where they started. If you want to prematurely end a round, you can use the command
 ```mcfunction
 function trouble_in_mc_town:cleanup_after_round
 ```
-which ends and resets the current round.
+which ends the current round.
 
 So, have fun playing!
 
