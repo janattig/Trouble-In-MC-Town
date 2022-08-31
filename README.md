@@ -27,7 +27,7 @@ Once the datapack is enabled in your save, you can start a game!
 
 ### How to play
 
-To play Trouble in MC Town, you have to check to prerequisites:
+To play Trouble in MC Town, you have to check two prerequisites:
   1. gather a few friends (remember, this is a *multiplayer* gamemode)
   2. prepare an area for playing: The area in which you want to play should have some empty chests which will be filled with loot once you open them while playing. You can either prepare an area on your own or you can use my companion datapack [Procedural Dungeons](https://github.com/janattig/Procedural-Dungeons) (featured in [this](https://www.youtube.com/watch?v=Q7MZA2epbMU) video) to generate procedural levels for playing Trouble in MC Town.
 
