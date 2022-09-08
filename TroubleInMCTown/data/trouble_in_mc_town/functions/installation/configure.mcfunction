@@ -9,8 +9,7 @@ scoreboard objectives setdisplay sidebar
 # GAME DATA
 
 # maximum innocents per traitor (if played in a group > 15 people)
-scoreboard players set #min_i_per_t ttt_num_players 2
-scoreboard players set #max_i_per_t ttt_num_players 4
+scoreboard players set #players_per_traitor ttt_num_players 4
 
 
 

@@ -60,6 +60,12 @@ scoreboard objectives remove ttt_tchestopened
 scoreboard objectives remove ttt_barrelopened
 scoreboard objectives remove ttt_raycasting
 
+# rand
+scoreboard objectives remove ttt_math
+
+# player index
+scoreboard objectives remove ttt_player_index
+
 # gamerules
 gamerule mobGriefing true
 
