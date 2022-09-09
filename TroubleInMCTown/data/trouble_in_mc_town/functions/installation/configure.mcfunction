@@ -8,9 +8,13 @@ scoreboard objectives setdisplay sidebar
 
 # GAME DATA
 
-# maximum innocents per traitor (if played in a group > 15 people)
+# number of players per traitor (if played in a group > 15 people)
 scoreboard players set #players_per_traitor ttt_num_players 4
 
+# how the participants can see the nametags of each other (might limit surprises and hiding)
+# - hidForOwnTeam: participants cannot see each others nametags
+# - always: participants can see nametags as usual
+team modify team_ttt_player nametagVisibility hideForOwnTeam
 
 
 # ROUND LENGTH
