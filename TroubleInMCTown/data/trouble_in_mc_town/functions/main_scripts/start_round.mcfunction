@@ -90,6 +90,9 @@ schedule function trouble_in_mc_town:main_scripts/countdown_loop 1s
 # SETUP ROLES FOR PEOPLE
 #############################
 
+# clear items on the floor around participants
+execute as @a[tag=ttt_participating] at @s run kill @e[type=item, distance=..150]
+
 # let all traitors set themselves up as traitors
 execute as @a[tag=ttt_traitor] at @s run function trouble_in_mc_town:utility/setup_self_as_traitor
 
