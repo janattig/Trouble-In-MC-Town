@@ -67,6 +67,9 @@ execute as @a[tag=ttt_want_to_participate] run function trouble_in_mc_town:utili
 execute as @a[tag=ttt_want_to_participate] at @s run spawnpoint
 execute as @a[tag=ttt_want_to_participate] at @s run execute if block ~ ~ ~ minecraft:dirt_path run spawnpoint @s ~ ~0.1 ~
 
+# make participating players glow
+effect give @a[tag=ttt_want_to_participate] glowing 3
+
 
 # setup countdown
 scoreboard players operation #round_starting ttt_countdowns = #rs_secs ttt_countdowns
