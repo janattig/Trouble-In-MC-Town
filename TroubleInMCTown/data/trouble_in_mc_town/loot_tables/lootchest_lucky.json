@@ -8,17 +8,17 @@
       "entries": [
         {
           "type":   "minecraft:loot_table",
-          "weight": 5,
+          "weight": 3,
           "name":   "trouble_in_mc_town:lootchests/high_quality_weapon"
         },
         {
           "type":   "minecraft:loot_table",
-          "weight": 5,
+          "weight": 3,
           "name":   "trouble_in_mc_town:lootchests/high_quality_armor"
         },
         {
           "type":   "minecraft:item",
-          "weight": 3,
+          "weight": 6,
           "name":   "minecraft:golden_apple"
         },
         {
