@@ -22,26 +22,26 @@ execute if score #ttt_found_innocent ttt_num_players matches ..4 run scoreboard 
 
 # 5-6 players: 1-2 traitor
 execute if score #ttt_found_innocent ttt_num_players matches 5..6 run scoreboard players set %ttt_want_traitor ttt_num_players 1
-execute if score #ttt_found_innocent ttt_num_players matches 5..6 if predicate trouble_in_mc_town:rand_normal run scoreboard players add %ttt_want_traitor ttt_num_players 1
+execute if score #ttt_found_innocent ttt_num_players matches 5..6 if predicate trouble_in_mc_town:rand_50_50 run scoreboard players add %ttt_want_traitor ttt_num_players 1
 
 # 7 players: 2 traitor
 execute if score #ttt_found_innocent ttt_num_players matches 7 run scoreboard players set %ttt_want_traitor ttt_num_players 2
 
 # 8-10 players: 2-3 traitor
 execute if score #ttt_found_innocent ttt_num_players matches 8..10 run scoreboard players set %ttt_want_traitor ttt_num_players 2
-execute if score #ttt_found_innocent ttt_num_players matches 8..10 if predicate trouble_in_mc_town:rand_normal run scoreboard players add %ttt_want_traitor ttt_num_players 1
+execute if score #ttt_found_innocent ttt_num_players matches 8..10 if predicate trouble_in_mc_town:rand_50_50 run scoreboard players add %ttt_want_traitor ttt_num_players 1
 
 # 11 players: 3 traitor
 execute if score #ttt_found_innocent ttt_num_players matches 11 run scoreboard players set %ttt_want_traitor ttt_num_players 3
 
 # 12-15 players: 3-4 traitor
 execute if score #ttt_found_innocent ttt_num_players matches 12..15 run scoreboard players set %ttt_want_traitor ttt_num_players 3
-execute if score #ttt_found_innocent ttt_num_players matches 12..15 if predicate trouble_in_mc_town:rand_normal run scoreboard players add %ttt_want_traitor ttt_num_players 1
+execute if score #ttt_found_innocent ttt_num_players matches 12..15 if predicate trouble_in_mc_town:rand_50_50 run scoreboard players add %ttt_want_traitor ttt_num_players 1
 
 # larger groups: divide respectively
 execute if score #ttt_found_innocent ttt_num_players matches 16.. run scoreboard players operation %ttt_want_traitor ttt_num_players = #ttt_found_innocent ttt_num_players
 execute if score #ttt_found_innocent ttt_num_players matches 16.. run scoreboard players operation %ttt_want_traitor ttt_num_players /= #players_per_traitor ttt_num_players
-execute if score #ttt_found_innocent ttt_num_players matches 16.. if predicate trouble_in_mc_town:rand_normal run scoreboard players add %ttt_want_traitor ttt_num_players 1
+execute if score #ttt_found_innocent ttt_num_players matches 16.. if predicate trouble_in_mc_town:rand_50_50 run scoreboard players add %ttt_want_traitor ttt_num_players 1
 
 
 
