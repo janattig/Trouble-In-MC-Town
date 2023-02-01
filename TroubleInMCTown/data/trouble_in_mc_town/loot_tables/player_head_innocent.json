@@ -15,6 +15,21 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Lore:['[{\"text\":\"Innocent\",\"italic\":false, \"color\":\"blue\"}]']}}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "UUID",
+                  "target": "killer",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{needs_resolving:1b, innocent:1b}"
             }
           ]
   	    }

@@ -4,12 +4,16 @@
 execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating] title ["", {"text":"Innocent","bold":true,"color":"blue"}, {"text":" win!"}]
 
 # show subtitle
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Round over, you win, ","color":"white"},{"selector":"@s"},{"text":"!"}]
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_traitor] subtitle ["", {"text":"Round over, you loose, ","color":"white"},{"selector":"@s"},{"text":"..."}]
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating] subtitle ["",{"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"},{"text":" lost!","color":" white"}]
+execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"}, {"text":"lost, you win!  (+","color":"white"},{"text":"5","color":"blue"},{"text":" points)","color":"white"}]
+execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_traitor] subtitle ["", {"text":"Round over, you loose  (+","color":"white"},{"text":"0","color":"red"},{"text":" points)","color":"white"}]
 
 # tell to chat
 tellraw @a[tag=ttt_participating] ["", {"text":"> "},{"text":"Innocent","bold":true,"color":"blue"}, {"text":" win!"}]
+tellraw @a[tag=ttt_participating, tag=ttt_innocent] ["", {"text":"> + "},{"text":"5","bold":true,"color":"blue"}, {"text":" points"}]
+tellraw @a[tag=ttt_participating, tag=ttt_traitor] ["", {"text":"> + "},{"text":"0","bold":true,"color":"red"}, {"text":" points"}]
+
+# give points to winning team
+scoreboard players add @a[tag=ttt_participating, tag=ttt_innocent] ttt_score 5
 
 # end the round by setting variable
 scoreboard players set #round_starting ttt_booleans 0

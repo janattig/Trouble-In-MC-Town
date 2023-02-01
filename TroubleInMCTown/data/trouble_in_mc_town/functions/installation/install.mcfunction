@@ -59,6 +59,11 @@ scoreboard objectives add ttt_positions_a dummy
 scoreboard objectives add ttt_positions_b dummy
 
 
+# score
+scoreboard objectives add ttt_score dummy
+scoreboard objectives setdisplay list ttt_score
+
+
 
 # countdown variables
 scoreboard objectives add ttt_countdowns dummy

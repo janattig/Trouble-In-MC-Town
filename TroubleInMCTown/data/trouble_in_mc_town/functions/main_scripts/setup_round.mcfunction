@@ -10,6 +10,9 @@ tellraw @a[distance=..100] ["",{"text":""}]
 tellraw @a[distance=..100] ["",{"text":""}]
 tellraw @a[distance=..100] ["",{"text":"---- A new round of ","color":"white"},{"text":"TTT","bold":true},{"text":" will now begin ----","color":"white"}]
 
+# make sure that player scores can be added to
+execute as @a run execute unless score @s ttt_score matches 0.. run scoreboard players set @s ttt_score 0
+
 
 #############################
 # CHECK FOR ONGOING ROUND

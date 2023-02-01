@@ -6,7 +6,8 @@ function trouble_in_mc_town:utility/loot_chests/main_chest_loop
 
 # check player death
 execute as @a[tag=ttt_alive] at @s run function trouble_in_mc_town:utility/check_death
-
+# check player heads for death attribution
+function trouble_in_mc_town:utility/resolve_player_kills
 
 
 # set correct number of persons team

@@ -15,6 +15,21 @@
             {
               "function": "set_nbt",
               "tag": "{display:{Lore:['[{\"text\":\"Traitor\",\"italic\":false, \"color\":\"red\"}]']}}"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "UUID",
+                  "target": "killer",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{needs_resolving:1b, traitor:1b}"
             }
           ]
   	    }

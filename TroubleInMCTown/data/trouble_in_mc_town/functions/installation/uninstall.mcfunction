@@ -23,6 +23,9 @@ tag @a remove ttt_want_to_participate
 tag @a remove ttt_participating
 tag @a remove ttt_alive
 
+# remove score (tmp disabled to not remove score)
+#scoreboard objectives remove ttt_score
+
 # remove player in team count
 scoreboard objectives remove ttt_num_players
 scoreboard objectives remove ttt_booleans
