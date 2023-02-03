@@ -18,7 +18,10 @@
             },
             {
               "function": "minecraft:copy_nbt",
-              "source": "killer",
+              "source": {
+                "type": "minecraft:context",
+                "target": "killer"
+              },
               "ops": [
                 {
                   "source": "UUID",

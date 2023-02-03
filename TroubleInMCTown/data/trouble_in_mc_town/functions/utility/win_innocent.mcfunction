@@ -4,7 +4,7 @@
 execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating] title ["", {"text":"Innocent","bold":true,"color":"blue"}, {"text":" win!"}]
 
 # show subtitle
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"}, {"text":"lost, you win!  (+","color":"white"},{"text":"5","color":"blue"},{"text":" points)","color":"white"}]
+execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"}, {"text":" lost, you win!  (+","color":"white"},{"text":"5","color":"blue"},{"text":" points)","color":"white"}]
 execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_traitor] subtitle ["", {"text":"Round over, you loose  (+","color":"white"},{"text":"0","color":"red"},{"text":" points)","color":"white"}]
 
 # tell to chat

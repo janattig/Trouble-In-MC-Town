@@ -4,16 +4,16 @@
 execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating] title ["", {"text":"Traitor","bold":true,"color":"red"}, {"text":" win!"}]
 
 # show subtitle
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"}, {"text":"won, you lost!  (+","color":"white"},{"text":"0","color":"blue"},{"text":" points)","color":"white"}]
-execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_traitor] subtitle ["", {"text":"Round over, you win!  (+","color":"white"},{"text":"5","color":"red"},{"text":" points)","color":"white"}]
+execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_innocent] subtitle ["", {"text":"Traitors ","color":"white"},{"selector":"@a[tag=ttt_traitor]","color":"red"}, {"text":" won, you lost!  (+","color":"white"},{"text":"0","color":"blue"},{"text":" points)","color":"white"}]
+execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, tag=ttt_traitor] subtitle ["", {"text":"Round over, you win!  (+","color":"white"},{"text":"10","color":"red"},{"text":" points)","color":"white"}]
 
 # tell to chat
 tellraw @a[tag=ttt_participating] ["", {"text":"> "},{"text":"Traitor","bold":true,"color":"red"}, {"text":" win!"}]
 tellraw @a[tag=ttt_participating, tag=ttt_innocent] ["", {"text":"> + "},{"text":"0","bold":true,"color":"blue"}, {"text":" points"}]
-tellraw @a[tag=ttt_participating, tag=ttt_traitor] ["", {"text":"> + "},{"text":"5","bold":true,"color":"red"}, {"text":" points"}]
+tellraw @a[tag=ttt_participating, tag=ttt_traitor] ["", {"text":"> + "},{"text":"10","bold":true,"color":"red"}, {"text":" points"}]
 
 # give points to winning team
-scoreboard players add @a[tag=ttt_participating, tag=ttt_traitor] ttt_score 5
+scoreboard players add @a[tag=ttt_participating, tag=ttt_traitor] ttt_score 10
 
 # end the round by setting variable
 scoreboard players set #round_starting ttt_booleans 0

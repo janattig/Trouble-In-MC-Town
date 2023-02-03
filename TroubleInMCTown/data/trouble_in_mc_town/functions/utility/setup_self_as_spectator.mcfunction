@@ -16,6 +16,9 @@ gamemode spectator @s
 # join the team of spectators to see the sidebar
 team join team_spectator @s
 
-# drop the player head
-execute as @s[tag=ttt_traitor] run loot spawn ~ ~ ~ loot trouble_in_mc_town:player_head_traitor
-execute as @s[tag=ttt_innocent] run loot spawn ~ ~ ~ loot trouble_in_mc_town:player_head_innocent
+# drop the player head --> moved to loottable minecraft:entities/player to incorporate on-death effects
+#execute as @s[tag=ttt_traitor] run loot spawn ~ ~ ~ loot trouble_in_mc_town:player_head_traitor
+#execute as @s[tag=ttt_innocent] run loot spawn ~ ~ ~ loot trouble_in_mc_town:player_head_innocent
+
+# check player heads for death attribution
+function trouble_in_mc_town:utility/resolve_player_kills
