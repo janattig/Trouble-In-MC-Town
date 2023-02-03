@@ -6,22 +6,22 @@
         {
           "type":   "minecraft:item",
           "name":   "minecraft:pumpkin_pie",
-          "weight": 5
-        },
-        {
-          "type":   "minecraft:item",
-          "name":   "minecraft:bread",
-          "weight": 5
-        },
-        {
-          "type":   "minecraft:item",
-          "name":   "minecraft:cooked_salmon",
           "weight": 4
         },
         {
           "type":   "minecraft:item",
-          "name":   "minecraft:cooked_porkchop",
+          "name":   "minecraft:bread",
+          "weight": 4
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_salmon",
           "weight": 2
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:cooked_porkchop",
+          "weight": 1
         },
         {
           "type":   "minecraft:item",
@@ -36,6 +36,11 @@
         {
           "type":   "minecraft:item",
           "name":   "minecraft:cooked_beef",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:item",
+          "name":   "minecraft:golden_carrot",
           "weight": 1
         }
       ]

@@ -15,8 +15,33 @@
         },
         {
           "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:random_items/potion_of_invisibility",
+          "name":   "trouble_in_mc_town:lootchest_lucky",
           "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "weight": 3,
+          "name":   "trouble_in_mc_town:lootchests/high_quality_weapon"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "weight": 3,
+          "name":   "trouble_in_mc_town:lootchests/high_quality_armor"
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 6,
+          "name":   "minecraft:golden_apple"
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 1,
+          "name":   "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:random_items/potion_of_invisibility",
+          "weight": 4
         },
         {
           "type":   "minecraft:loot_table",
@@ -26,7 +51,7 @@
         {
           "type":   "minecraft:loot_table",
           "name":   "trouble_in_mc_town:random_items/glowing_powder",
-          "weight": 4
+          "weight": 6
         }
       ],
       "functions": [

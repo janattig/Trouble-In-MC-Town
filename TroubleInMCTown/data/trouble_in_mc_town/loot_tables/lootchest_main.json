@@ -8,11 +8,6 @@
       "entries": [
         {
           "type":   "minecraft:loot_table",
-          "weight": 5,
-          "name":   "trouble_in_mc_town:starter_kits/armor_complete_random"
-        },
-        {
-          "type":   "minecraft:loot_table",
           "weight": 25,
           "name":   "trouble_in_mc_town:starter_kits/armor_random"
         },
@@ -117,26 +112,12 @@
         },
         {
           "type":   "minecraft:loot_table",
-          "weight": 8,
-          "name":   "trouble_in_mc_town:lootchests/food_high_random",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "weight": 15,
+          "weight": 5,
           "name":   "trouble_in_mc_town:lootchests/potion_random"
         },
         {
           "type":   "minecraft:loot_table",
-          "weight": 5,
+          "weight": 1,
           "name":   "trouble_in_mc_town:lootchests/tipped_arrow_random"
         }
       ]
