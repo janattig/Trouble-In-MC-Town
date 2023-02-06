@@ -8,6 +8,9 @@ clear @s
 # give random loot
 loot give @s loot trouble_in_mc_town:normal_starting
 
+# cannot be targeted by summoning potions
+tag @s add sp_no_target
+
 # tell player as what he is playing as the only traitor
 execute if score Traitor ttt_num_players matches 1 run tellraw @s ["",{"text":"> You are the (only) "},{"text":"Traitor","bold":true,"color":"red"},{"text":" ("},{"selector":"@s"},{"text":") <--"}]
 

@@ -6,6 +6,9 @@
 # DIVIDE INTO TEAMS
 #############################
 
+# everybody can be targeted by summoning potions (just in case)
+tag @a remove sp_no_target
+
 # set internal counters correctly
 scoreboard players set #ttt_found_innocent ttt_num_players 0
 scoreboard players set #ttt_found_traitor ttt_num_players 0
