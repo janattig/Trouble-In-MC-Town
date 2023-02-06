@@ -26,4 +26,4 @@ execute align xyz run execute positioned ~0.5 ~0.5 ~0.5 run execute as @e[tag=sp
 execute align xyz run execute positioned ~0.5 ~0.5 ~0.5 run execute as @e[tag=sp_summoned, distance=..3] at @s run summon snowball ~0.5 ~3 ~ {Tags:["sp_snowball"], Motion:[0.0,-3.0,0.0]}
 execute align xyz run execute positioned ~0.5 ~0.5 ~0.5 run execute as @e[tag=sp_summoned, distance=..3] at @s run summon snowball ~ ~3 ~0.5 {Tags:["sp_snowball"], Motion:[0.0,-3.0,0.0]}
 execute as @e[tag=sp_snowball] at @s run data modify entity @s Owner set from entity @e[tag=!sp_no_target, tag=!sp_summoned, tag=!sp_snowball,limit=1,sort=nearest] UUID
-execute as @e[tag=sp_snowball] at @s run effect give @e[tag=!sp_no_target, tag=!sp_summoned, tag=!sp_snowball,limit=1,sort=nearest] glowing 2
+#execute as @e[tag=sp_snowball] at @s run effect give @e[tag=!sp_no_target, tag=!sp_summoned, tag=!sp_snowball,limit=1,sort=nearest] glowing 2
