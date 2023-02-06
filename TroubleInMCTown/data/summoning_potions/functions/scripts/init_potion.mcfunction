@@ -1,5 +1,5 @@
 # initialize potion by summoning a companion armor stand
-summon minecraft:armor_stand ~ ~ ~ {NoGravity:1, Tags:["sp_companion"], NoBasePlate:1, Small:1, NoHitBox:1, Marker:1b, Invisible:1}
+summon minecraft:armor_stand ~ ~ ~ {NoGravity:1, Tags:["sp_companion"], NoBasePlate:1, Small:1, Marker:1b, Invisible:1}
 
 # tag the armor stand with the mob indicated by the potion
 execute if entity @s[nbt={Item:{tag:{sp_summons:"wither_skeleton"}}}] run tag @e[limit=1,type=armor_stand,sort=nearest] add sp_wither_skeleton

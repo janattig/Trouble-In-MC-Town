@@ -2,7 +2,4 @@
 particle minecraft:explosion ~ ~ ~
 
 # summon a giant slime
-summon minecraft:slime ~ ~ ~ {Size:4, Tags:["sp_summoned"]}
-
-# make angry at nearest player
-execute as @e[type=slime, sort=nearest, limit=1] at @s run function summoning_potions:scripts/try_make_self_angry_at_nearest_player
+summon minecraft:slime ~ ~ ~ {Size:4,Attributes:[{Name:"generic.follow_range",Base:48.0d},{Name:"generic.movement_speed",Base:2.0d}], Tags:["sp_summoned"]}
