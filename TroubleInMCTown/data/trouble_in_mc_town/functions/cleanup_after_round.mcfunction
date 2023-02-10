@@ -82,3 +82,6 @@ team empty team_spectator
 
 # setup game rules
 gamerule showDeathMessages true
+
+# update scores
+function trouble_in_mc_town:utility/update_scores

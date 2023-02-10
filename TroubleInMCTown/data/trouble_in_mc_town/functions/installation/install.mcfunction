@@ -59,8 +59,9 @@ scoreboard objectives add ttt_positions_a dummy
 scoreboard objectives add ttt_positions_b dummy
 
 
-# score
+# score and the position within the scoreboard
 scoreboard objectives add ttt_score dummy
+scoreboard objectives add ttt_score_position dummy
 scoreboard objectives setdisplay list ttt_score
 
 
