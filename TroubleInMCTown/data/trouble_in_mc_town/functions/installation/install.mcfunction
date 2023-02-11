@@ -96,11 +96,13 @@ scoreboard objectives add ttt_math dummy
 scoreboard players set %LCG_a ttt_math 1664525
 scoreboard players set %LCG_b ttt_math 1664525
 scoreboard players set %LCG_c ttt_math 1013904223
+scoreboard players set %LCG_m ttt_math 2147483647
 scoreboard players set %LCG_current ttt_math 1
 scoreboard players set %LCG_rand_min ttt_math 0
 scoreboard players set %LCG_rand_max ttt_math 10
 scoreboard players set %LCG_range ttt_math 10
 scoreboard players set %LCG_rand ttt_math 4
+scoreboard players set %LCG_bits ttt_math 1024
 
 # player index
 scoreboard objectives add ttt_player_index dummy
