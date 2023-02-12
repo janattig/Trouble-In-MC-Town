@@ -61,6 +61,9 @@ scoreboard players reset @a ttt_chestopened
 scoreboard players reset @a ttt_barrelopened
 scoreboard players set #num_chests ttt_lootchests 0
 
+# summoning potions reset
+tag @a remove sp_no_target
+
 # position backup
 scoreboard players reset @a ttt_positions_x
 scoreboard players reset @a ttt_positions_y
@@ -82,6 +85,10 @@ team empty team_spectator
 
 # setup game rules
 gamerule showDeathMessages true
+
+
+# remove all traitor shops
+function trouble_in_mc_town:shop/remove_all_shops
 
 # update scores
 function trouble_in_mc_town:utility/update_scores

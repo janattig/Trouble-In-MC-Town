@@ -6,3 +6,6 @@ execute as @e[tag=ttt_needs_death_tp, limit=1, sort=random] run function trouble
 
 # check glowing powder
 execute as @e[type=potion, nbt={Item:{tag:{glowing_powder:1b}}}] at @s run function trouble_in_mc_town:utility/glowing_powder_effect
+
+# check traitor shops
+execute if entity @e[type=marker, tag=ttt_traitor_shop_home] run function trouble_in_mc_town:shop/shop_main

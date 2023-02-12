@@ -4,69 +4,36 @@
       "rolls": 1,
       "entries": [
         {
-          "type":   "minecraft:loot_table",
-          "name":   "summoning_potions:p_random",
-          "weight": 8
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:random_items/levitating_splash_potion",
-          "weight": 1
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:lootchest_lucky",
-          "weight": 1
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "weight": 3,
-          "name":   "trouble_in_mc_town:lootchests/high_quality_weapon"
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "weight": 3,
-          "name":   "trouble_in_mc_town:lootchests/high_quality_armor"
+          "type":   "minecraft:item",
+          "name":   "minecraft:emerald",
+          "weight": 30
         },
         {
           "type":   "minecraft:item",
-          "weight": 6,
-          "name":   "minecraft:golden_apple"
+          "name":   "minecraft:emerald",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "type":   "minecraft:item",
-          "weight": 1,
-          "name":   "minecraft:enchanted_golden_apple"
+          "name":   "minecraft:emerald",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
         },
         {
-          "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:random_items/potion_of_invisibility",
-          "weight": 4
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:random_items/custom_arrows",
-          "weight": 8
-        },
-        {
-          "type":   "minecraft:loot_table",
-          "name":   "trouble_in_mc_town:random_items/glowing_powder",
-          "weight": 6
-        }
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_lore",
-          "lore": [
-            [
-              {
-                "text": "(designed for a traitor)",
-                "color": "#ff5555",
-                "italic": false
-              }
-            ]
-          ],
-          "replace": false
+          "type":   "minecraft:item",
+          "name":   "minecraft:diamond",
+          "weight": 1
         }
       ]
     }

@@ -91,6 +91,10 @@ scoreboard objectives add ttt_player_death deathCount
 
 
 
+# Traitor shop numbers
+scoreboard objectives add ttt_shop dummy
+scoreboard players set %current ttt_shop 1
+
 # random numbers
 scoreboard objectives add ttt_math dummy
 scoreboard players set %LCG_a ttt_math 1664525

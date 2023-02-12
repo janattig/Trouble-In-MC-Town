@@ -8,6 +8,10 @@ clear @s
 # give random loot
 loot give @s loot trouble_in_mc_town:normal_starting
 
+# setup traitor shop for self
+function trouble_in_mc_town:shop/init_traitor_shop_for_self
+loot give @s loot trouble_in_mc_town:traitor_shop
+
 # cannot be targeted by summoning potions
 tag @s add sp_no_target
 

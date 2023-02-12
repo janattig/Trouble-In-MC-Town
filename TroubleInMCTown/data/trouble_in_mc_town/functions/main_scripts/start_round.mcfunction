@@ -111,6 +111,9 @@ scoreboard players set @a[tag=ttt_participating] ttt_player_death 0
 # set the difficulty to normal
 difficulty normal
 
+# setup the traitor shops
+function trouble_in_mc_town:shop/init_shop_homes
+
 
 #############################
 # PRINT FINISH INTO CHAT
