@@ -1,0 +1,13 @@
+{
+    "function": "minecraft:set_lore",
+    "lore": [
+        [
+            {
+                "text": "(designed for a traitor)",
+                "color": "#ff5555",
+                "italic": false
+            }
+        ]
+    ],
+    "replace": false
+}
