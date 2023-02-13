@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{legendary_artifact:1b,elven_boots_of_swiftness:1b,Enchantments:[{}],display:{color:12451836}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 1,
+                "minecraft:blast_protection": 5,
+                "minecraft:swift_sneak": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Elven boots",
+                    "bold": true,
+                    "color": "#99eeff"
+                  },
+                  {
+                    "text": " of ",
+                    "bold": true,
+                    "color": "white"
+                  },
+                  {
+                    "text": "Swiftness",
+                    "bold": true,
+                    "color": "#99eeff"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Legendary Boots",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "You ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "move",
+                    "color": "#99eeff",
+                    "italic": true
+                  },
+                  {
+                    "text": " quickly",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "while worn in boots slot",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

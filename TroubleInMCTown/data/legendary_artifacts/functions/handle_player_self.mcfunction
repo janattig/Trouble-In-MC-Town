@@ -11,6 +11,9 @@ execute as @s[tag=la_wields_offhand] at @s run execute as @s[nbt={Inventory:[{Sl
 # chest plate
 execute as @s[tag=la_wields_chestplate] at @s run execute as @s[nbt={Inventory:[{Slot:102b, tag:{tunic_of_regeneration:1b}}]}] run function legendary_artifacts:artifacts/tunic_of_regeneration
 
+# boots
+execute as @s[tag=la_wields_boots] at @s run execute as @s[nbt={Inventory:[{Slot:100b, tag:{elven_boots_of_swiftness:1b}}]}] run function legendary_artifacts:artifacts/elven_boots_of_swiftness
+
 
 
 # remove main / offhand tags
