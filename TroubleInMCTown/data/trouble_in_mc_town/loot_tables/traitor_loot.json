@@ -4,14 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "type":   "minecraft:item",
-          "name":   "minecraft:emerald",
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:traitor_currency/emerald",
           "weight": 30
         },
         {
-          "type":   "minecraft:item",
-          "name":   "minecraft:emerald",
-          "weight": 10,
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:traitor_currency/emerald",
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -20,9 +20,9 @@
           ]
         },
         {
-          "type":   "minecraft:item",
-          "name":   "minecraft:emerald",
-          "weight": 2,
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:traitor_currency/emerald",
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -31,8 +31,8 @@
           ]
         },
         {
-          "type":   "minecraft:item",
-          "name":   "minecraft:diamond",
+          "type":   "minecraft:loot_table",
+          "name":   "trouble_in_mc_town:traitor_currency/diamond",
           "weight": 1
         }
       ]
