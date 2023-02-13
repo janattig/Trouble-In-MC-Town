@@ -2,6 +2,9 @@
 
 
 # add legendary quality trades
+function trouble_in_mc_town:shop/trades/legendary/fireflame
+function trouble_in_mc_town:shop/trades/legendary/tunic_of_regeneration
+function trouble_in_mc_town:shop/trades/legendary/cane_of_clarity
 
 # netherite items
 function trouble_in_mc_town:shop/trades/traitor/netherite_sword
