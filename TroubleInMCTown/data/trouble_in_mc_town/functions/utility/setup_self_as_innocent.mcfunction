@@ -13,8 +13,10 @@ tellraw @s ["",{"text":"> You are playing as "},{"text":"Innocent","bold":true,"
 # tell the objective of the INNOCENT team
 tellraw @s ["",{"text":"> Objective:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Survive until the time runs out OR elminate all Traitors","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"You can find loot in chests and barrels","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Traitors can find special loot if they wander alone","color":"gray"}]
+tellraw @s ["",{"text":"> Hints:"}]
+tellraw @s ["",{"text":"  > "},{"text":"Find loot in chests and barrels","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Traitors can find ","color":"gray"},{"text":"$TC","color":"red"},{"text":" currency if they are alone","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Traitors exchange ","color":"gray"},{"text":"$TC","color":"red"},{"text":" in the Traitor Shop (book)","color":"gray"}]
 
 title @s times 10 120 50
 title @s title {"text":"Innocent","bold":true,"color":"blue"}

@@ -41,7 +41,7 @@ or utilizing the [start structure](#start-structure) of this datapack which you 
 
 Starting a round gathers all players in a 100 block radius around the function caller which are either in survival or creative mode. These participating players are then switched to adventure mode and divided into the teams **Traitor** and **Innocent**. Innocents win if they stay alive for 8 minutes (configurable) or if all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over.
 
-Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special loot by opening chests far away from Innocents. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
+Every player starts with random starting gear and can find more items by opening chests. In particular, Traitors can find special currency items by opening chests far away from Innocents and spend them in a so-called *Traitor Shop* which is only accessible to them. If you are killed or die during the round, you can simply respawn and will be setup as a spectator player that can observe the rest of the round (however you should avoid talking then).
 
 Once one team has won, the round ends automatically and everyone is teleported back to where they started. If you want to prematurely end a round, you can use the command
 ```mcfunction
@@ -61,8 +61,8 @@ So, have fun playing!
 
 In total, the datapack provides the following:
 1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable like many other options [here](TroubleInMCTown/data/trouble_in_mc_town/functions/installation/configure.mcfunction)) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
-2. [**Loot chests**](#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find extra fun Traitor-loot
-3. [**Special Traitor-loot**](#traitor-loot) - This loot which is exclusive to traitors contains:
+2. [**Loot chests**](#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find currency items which can be exchanged for extra fun Traitor-loot in the *Traitor Shop*
+3. [**Special Traitor-loot**](#traitor-loot) - This loot which is exclusively available to traitors in the *Traitor Shop* contains:
     * Special Minecraft items, like Diamond armor and weapons or Enchanted Golden Apples
     * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
     * Summoning Splash Potions which summon monsters upon impact
@@ -73,9 +73,7 @@ In total, the datapack provides the following:
 
 ### Loot chests
 
-During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack.
-
-In general, the loot in these chests contains food, weapons, armor and some potions. Some chests can also contain special loot which consists of diamond weapons and armor as well as strong minecraft items. Traitors which wander far away from Innocents can also find special [Traitor-loot](#traitor-loot), consisting of special items.
+During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack. In general, the loot in these chests contains food, weapons, armor and some potions. Traitors who wander around the world far away from the Innocents can find currency items which can be exchanged for extra fun Traitor-loot in the *Traitor Shop*. [Traitor items](#traitor-loot) among others contain special items.
 
 ![](images/loot_chests.png)
 
@@ -87,14 +85,14 @@ When the round is ending, all loot chests will be purged, so no items persist be
 
 ### Traitor loot
 
-Traitors which open chests far away from Innocents also have a chance of finding valuable Traitor loot. These special items consist of
+Traitors which open chests far away from Innocents also have a chance of finding valuable Traitor curency. These currency items can be exchanged for special items like
 1. **Special Minecraft items** - Items like weapons and armor made out of diamond, with powerful enchantments, bows with OP enchantments, Enchanted Golden Apples or Invisibility potions
 2. **Custom Arrows** - These arrows come with special effects unlike any ordinary Minecraft tipped arrow. The implementation of custom arrows is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0). Implemented effects range from Area Poison, over Lightning strikes and TNT to arrows which make players drop their inventory as well as teleport arrows.
 3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact.
 
 ![](images/traitor_loot.png)
 
-All items which are considered special Traitor loot have the `(designed for a traitor)` tag written in their description and come from the loot table `trouble_in_mc_town:traitor_loot`.
+All items which are considered special Traitor loot have the `(designed for a traitor)` tag written in their description.
 
 
 ### Debug mode

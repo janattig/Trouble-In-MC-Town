@@ -25,8 +25,10 @@ execute if score Traitor ttt_num_players matches 2.. at @s run tellraw @s ["",{"
 # tell the objective of the TRAITOR team
 tellraw @s ["",{"text":"> Objective:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Eliminate all Innocents before the time runs out","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"You can find loot in chests and barrels","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Special Traitor loot can be found if you wander alone","color":"gray"}]
+tellraw @s ["",{"text":"> Hints:"}]
+tellraw @s ["",{"text":"  > "},{"text":"Find loot in chests and barrels","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Find ","color":"gray"},{"text":"$TC","color":"red"},{"text":" currency if you are alone","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Buy Traitor loot for ","color":"gray"},{"text":"$TC","color":"red"},{"text":" in the Traitor Shop (book)","color":"gray"}]
 
 title @s times 10 120 50
 title @s title {"text":"Traitor","bold":true,"color":"red"}
