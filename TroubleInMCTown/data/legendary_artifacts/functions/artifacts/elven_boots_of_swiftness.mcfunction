@@ -1,4 +1,4 @@
-# give self regeneration and saturation
+# give self speed and jump boost
 effect give @s minecraft:speed 1 4
 effect give @s minecraft:haste 1 1
 effect give @s minecraft:jump_boost 1 2

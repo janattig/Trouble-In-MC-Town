@@ -5,6 +5,7 @@
 function trouble_in_mc_town:shop/trades/legendary/fireflame
 function trouble_in_mc_town:shop/trades/legendary/tunic_of_regeneration
 function trouble_in_mc_town:shop/trades/legendary/elven_boots_of_swiftness
+function trouble_in_mc_town:shop/trades/legendary/lightning_shard
 function trouble_in_mc_town:shop/trades/legendary/cane_of_clarity
 
 # netherite items

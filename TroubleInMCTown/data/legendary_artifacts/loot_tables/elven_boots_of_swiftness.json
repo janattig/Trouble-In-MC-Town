@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{legendary_artifact:1b,elven_boots_of_swiftness:1b,Enchantments:[{}],display:{color:12451836}}"
+              "tag": "{legendary_artifact:1b,elven_boots_of_swiftness:1b,Enchantments:[{}],display:{color:12451836},HideFlags:64}"
             },
             {
               "function": "minecraft:set_enchantments",
