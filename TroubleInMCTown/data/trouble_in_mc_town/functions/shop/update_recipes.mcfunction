@@ -13,6 +13,7 @@ function trouble_in_mc_town:shop/trades/traitor/netherite_sword
 function trouble_in_mc_town:shop/trades/conversion/diamond_to_netherite
 
 # diamond items
+function trouble_in_mc_town:shop/trades/traitor/fancy_bow
 function trouble_in_mc_town:shop/trades/traitor/diamond_sword
 function trouble_in_mc_town:shop/trades/traitor/diamond_axe
 function trouble_in_mc_town:shop/trades/traitor/diamond_helmet
