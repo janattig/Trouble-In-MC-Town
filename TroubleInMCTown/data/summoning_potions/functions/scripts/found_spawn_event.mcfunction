@@ -1,5 +1,6 @@
 # particles and explosion
-particle minecraft:explosion ~ ~ ~
+#particle minecraft:explosion ~ ~ ~
+particle minecraft:explosion ~ ~ ~ 0.5 1.5 0.5 2 10
 
 # check which mob to spawn
 execute if entity @s[tag=sp_wither_skeleton] align xyz run execute positioned ~0.5 ~0.5 ~0.5 run function summoning_potions:scripts/spawn/wither_skeleton
@@ -15,7 +16,7 @@ execute if entity @s[tag=sp_silverfish] align xyz run execute positioned ~0.5 ~0
 execute if entity @s[tag=sp_phantom] align xyz run execute positioned ~0.5 ~0.5 ~0.5 run function summoning_potions:scripts/spawn/phantom
 
 
-# kill the splash potion
+# kill the aoe cloud
 kill @s
 
 
