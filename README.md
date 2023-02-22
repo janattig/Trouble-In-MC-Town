@@ -1,7 +1,6 @@
 # Trouble In MC Town
 
-This Minecraft datapack provides my own implementation of the once popular gamemode *Trouble in Terrorist Town (TTT)* which is well known from games like Garrys Mod and Counter Strike.
-
+This Minecraft datapack is inspired by the once popular gamemode *Trouble in Terrorist Town (TTT)* from games like Garrys Mod and Counter Strike and tries to emulate this gamemode in Minecraft.
 
 For getting started, you might want to [install](https://github.com/janattig/Trouble-In-MC-Town#installation) the datapack and start a round with your friends, following the [*How to play* section](#how-to-play) of the Readme.
 
@@ -62,10 +61,7 @@ So, have fun playing!
 In total, the datapack provides the following:
 1. **Implementation of the TTT rules** - Players are divided into <span style="color:blue">**Innocent**</span> and <span style="color:blue">**Traitor**</span>. Innocents win if they stay alive for 8 minutes (configurable like many other options [here](TroubleInMCTown/data/trouble_in_mc_town/functions/installation/configure.mcfunction)) or all Traitors are dead. Traitors win if all Innocents are dead before the 8 minutes are over. Note that in contrast to the other implementations, this datapack does *not* implement the role of a *detective*.
 2. [**Loot chests**](#loot-chests) - All players can find loot by opening (empty) chests around the world (best used with a pre-generated level, more coming soon). Traitors who wander around the world far away from the Innocents can find currency items which can be exchanged for extra fun Traitor-loot in the *Traitor Shop*
-3. [**Special Traitor-loot**](#traitor-loot) - This loot which is exclusively available to traitors in the *Traitor Shop* contains:
-    * Special Minecraft items, like Diamond armor and weapons or Enchanted Golden Apples
-    * Custom Arrows with special effects, like lightning or TNT explosions. This is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0)
-    * Summoning Splash Potions which summon monsters upon impact
+3. [**Special Traitor-loot**](#traitor-loot) - Exclusive items only available to traitors. [Traitor items](#traitor-loot) can be bought in the *Traitor Shop*.
 4. [**Start structure**](#start-structure) - Pre-built structure which allows easy access to the TTT game in forms of command blocks that can be triggered by conventional buttons.
 
 
@@ -73,7 +69,7 @@ In total, the datapack provides the following:
 
 ### Loot chests
 
-During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack. In general, the loot in these chests contains food, weapons, armor and some potions. Traitors who wander around the world far away from the Innocents can find currency items which can be exchanged for extra fun Traitor-loot in the *Traitor Shop*. [Traitor items](#traitor-loot) among others contain special items.
+During a round of TTT, players can gather more loot by opening (empty) chests around the playable area. These chests are then filled with loot according to loottables defined in the datapack. In general, the loot in these chests contains food, weapons, armor and some potions. Traitors who wander around the world far away from the Innocents can find currency items which can be exchanged for extra fun [Traitor items](#traitor-loot) in the *Traitor Shop*.
 
 ![](images/loot_chests.png)
 
@@ -87,10 +83,10 @@ When the round is ending, all loot chests will be purged, so no items persist be
 
 Traitors which open chests far away from Innocents also have a chance of finding valuable Traitor curency. These currency items can be exchanged for special items like
 1. **Special Minecraft items** - Items like weapons and armor made out of diamond, with powerful enchantments, bows with OP enchantments, Enchanted Golden Apples or Invisibility potions
-2. **Custom Arrows** - These arrows come with special effects unlike any ordinary Minecraft tipped arrow. The implementation of custom arrows is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0). Implemented effects range from Area Poison, over Lightning strikes and TNT to arrows which make players drop their inventory as well as teleport arrows.
-3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact. The implementation of custom potions is a modification of Cloud Wolf's "How to Detect where Snowballs Land in Minecraft" tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY).
+2. **Custom Arrows** - These arrows come with special effects unlike any ordinary Minecraft tipped arrow.  Implemented effects range from Area Poison, over Lightning strikes and TNT to arrows which make players drop their inventory as well as teleport arrows.
+3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact. 
 4. **Legendary Items** - These unique items are based on minecraft items or pieces of equipment but come with very unique properties. 
-5. **Ultimate Snowballs** - Snowballs that summon explosions or lightning on impact. The implementation follows closely Cloud Wolf's "How to Detect where Snowballs Land in Minecraft" tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY).
+5. **Ultimate Snowballs** - Snowballs that summon explosions or lightning on impact. 
 
 ![](images/traitor_loot.png)
 
@@ -127,3 +123,11 @@ which spawns a structure block with the exact reference of the structure in the 
 
 Upon loading, the structure looks like this:
 ![](images/start_structure.png)
+
+
+
+### Credits
+
+*Trouble in Terrorist Town (TTT)* is the name of a gamemode developed for *Garry's Mod*, which was added to *Garry's Mod* back in 2010 (see [wikipedia](https://en.wikipedia.org/wiki/Garry%27s_Mod) article, or [official page](https://www.troubleinterroristtown.com/)). This datapack represents my own attempt of emulating the gamemode in Minecraft.
+
+Some of the traitor items are implemented following YouTube tutorials by [*Cloud Wolf*](https://www.youtube.com/channel/UCZnBqVITQ0dloqUU0fGxY3g). The implementation for finding the landing point of summoning potions and ultimate snowballs is a modification of Cloud Wolf's *"How to Detect where Snowballs Land in Minecraft"* tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY). The implementation of custom arrow effects is an adaption of Cloud Wolf's *"Custom Arrows in Minecraft"* tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0).
