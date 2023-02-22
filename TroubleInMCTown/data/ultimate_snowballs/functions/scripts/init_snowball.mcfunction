@@ -12,14 +12,16 @@ execute store result entity @e[type=snowball,tag=ultimate_snowball,tag=init,limi
 # tag the aoe cloud with the effect
 execute if entity @s[nbt={Item:{tag:{usb_effect:"explosion"}}}] run tag @e[limit=1,tag=ultimate_snowball_companion,sort=nearest] add usb_explosion
 execute if entity @s[nbt={Item:{tag:{usb_effect:"lightning"}}}] run tag @e[limit=1,tag=ultimate_snowball_companion,sort=nearest] add usb_lightning
+execute if entity @s[nbt={Item:{tag:{usb_effect:"liquid_fire"}}}] run tag @e[limit=1,tag=ultimate_snowball_companion,sort=nearest] add usb_liquid_fire
 
 # tag the snowball from the AoE cloud tag
 execute as @e[tag=ultimate_snowball_companion, tag=usb_explosion, limit=1, sort=nearest, distance=..0.01] at @s run tag @e[tag=init] add usb_explosion
 execute as @e[tag=ultimate_snowball_companion, tag=usb_lightning, limit=1, sort=nearest, distance=..0.01] at @s run tag @e[tag=init] add usb_lightning
+execute as @e[tag=ultimate_snowball_companion, tag=usb_liquid_fire, limit=1, sort=nearest, distance=..0.01] at @s run tag @e[tag=init] add usb_liquid_fire
 
 # other effects on init
 execute as @e[tag=ultimate_snowball,tag=init, tag=usb_explosion, limit=1, sort=nearest, distance=..0.01] at @s run playsound entity.tnt.primed ambient @a ~ ~ ~ 1
-
+execute as @e[tag=ultimate_snowball,tag=init, tag=usb_liquid_fire, limit=1, sort=nearest, distance=..0.01] at @s run data modify entity @s Fire set value 200
 
 # tag the replacement snowball itself as initialized
 tag @e[type=snowball,tag=ultimate_snowball,tag=init,limit=1] add usb_initialized

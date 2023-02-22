@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ultimate_snowball:1b, usb_effect:\"lightning\",Enchantments:[{}]}"
+              "tag": "{ultimate_snowball:1b, usb_effect:\"liquid_fire\",Enchantments:[{}]}"
             },
             {
               "function": "minecraft:set_name",
@@ -18,14 +18,19 @@
               "name": [
                 [
                   {
-                    "text": "Snowball of ",
+                    "text": "Burning",
+                    "bold": true,
+                    "color": "#cc8800"
+                  },
+                  {
+                    "text": " Snowball of ",
                     "bold": false,
                     "color": "white"
                   },
                   {
-                    "text": "Lightning",
+                    "text": "Liquid Fire",
                     "bold": true,
-                    "color": "yellow"
+                    "color": "#cc8800"
                   }
                 ]
               ],
@@ -37,13 +42,13 @@
               "lore": [
                 [
                   {
-                    "text": "Summons ",
+                    "text": "Explodes in a ",
                     "color": "gray",
                     "italic": true
                   },
                   {
-                    "text": "Lightning",
-                    "color": "yellow",
+                    "text": "burst of fire",
+                    "color": "#cc8800",
                     "italic": true
                   },
                   {

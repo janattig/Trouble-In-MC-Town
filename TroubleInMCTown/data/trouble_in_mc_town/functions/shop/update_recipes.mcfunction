@@ -38,6 +38,7 @@ function trouble_in_mc_town:shop/trades/traitor/summoning_potion_enderman
 # ultimate snowballs
 function trouble_in_mc_town:shop/trades/traitor/ultimate_snowballs_explosion
 function trouble_in_mc_town:shop/trades/traitor/ultimate_snowballs_lightning
+function trouble_in_mc_town:shop/trades/traitor/ultimate_snowballs_liquid_fire
 
 # custom arrows
 function trouble_in_mc_town:shop/trades/traitor/custom_arrows_dropping
