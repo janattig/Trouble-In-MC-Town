@@ -88,8 +88,9 @@ When the round is ending, all loot chests will be purged, so no items persist be
 Traitors which open chests far away from Innocents also have a chance of finding valuable Traitor curency. These currency items can be exchanged for special items like
 1. **Special Minecraft items** - Items like weapons and armor made out of diamond, with powerful enchantments, bows with OP enchantments, Enchanted Golden Apples or Invisibility potions
 2. **Custom Arrows** - These arrows come with special effects unlike any ordinary Minecraft tipped arrow. The implementation of custom arrows is an adaption of Cloud Wolf's "Custom Arrows in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=14mBKL53Fy0). Implemented effects range from Area Poison, over Lightning strikes and TNT to arrows which make players drop their inventory as well as teleport arrows.
-3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact. The implementation of custom potions is a modification of Cloud Wolf's "How to Detect where Snowballs Land in Minecraft" Tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY).
+3. **Summoning Splash Potions** - These potions are ordinary splash potions without effects which summon monsters upon impact. The implementation of custom potions is a modification of Cloud Wolf's "How to Detect where Snowballs Land in Minecraft" tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY).
 4. **Legendary Items** - These unique items are based on minecraft items or pieces of equipment but come with very unique properties. 
+5. **Ultimate Snowballs** - Snowballs that summon explosions or lightning on impact. The implementation follows closely Cloud Wolf's "How to Detect where Snowballs Land in Minecraft" tutorial which can be found [here](https://www.youtube.com/watch?v=yM7aQKAbFmY).
 
 ![](images/traitor_loot.png)
 
