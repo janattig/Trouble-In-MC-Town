@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:cane_of_clarity",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:elven_boots_of_swiftness",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:explosion_crystal",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:fireflame",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:lightning_shard",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:tunic_of_regeneration",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

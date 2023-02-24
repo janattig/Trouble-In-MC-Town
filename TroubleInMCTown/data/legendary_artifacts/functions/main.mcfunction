@@ -20,3 +20,8 @@ tag @a[tag=la_wields_leggings] add la_wields_artifact
 tag @a[tag=la_wields_boots] add la_wields_artifact
 
 execute if entity @a[tag=la_wields_artifact] run function legendary_artifacts:handle_players
+
+
+
+# find items on ground
+execute as @e[type=item, nbt={Item:{tag:{legendary_artifact:1b}}}] at @s run function legendary_artifacts:handle_item_on_ground

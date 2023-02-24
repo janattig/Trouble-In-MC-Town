@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:chest",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{legendary_artifact:1b,legendary_lootbox:1b,Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Legendary Lootbox",
+                    "bold": true,
+                    "color": "#FFD700"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Yields ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "legendary effect",
+                    "color": "#FFD700",
+                    "italic": true
+                  },
+                  {
+                    "text": " when dropped:",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "> (33%) explodes",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "> (33%) gives ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "legendary item",
+                    "color": "#FFD700",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "> (33%) summons lightning",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
