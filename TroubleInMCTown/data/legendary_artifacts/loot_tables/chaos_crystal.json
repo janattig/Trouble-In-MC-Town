@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{legendary_artifact:1b,chaos_crystal:1b,Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Chaos ",
+                    "bold": true,
+                    "color": "#b100cd"
+                  },
+                  {
+                    "text": "Crystal",
+                    "bold": true,
+                    "color": "white"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Random effect",
+                    "color": "#b100cd",
+                    "italic": true
+                  },
+                  {
+                    "text": " when dropped",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
