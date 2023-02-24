@@ -25,6 +25,7 @@ execute as @e[tag=ultimate_snowball,tag=init, tag=usb_liquid_fire, limit=1, sort
 
 # tag the replacement snowball itself as initialized
 tag @e[type=snowball,tag=ultimate_snowball,tag=init,limit=1] add usb_initialized
+tag @e[type=snowball,tag=ultimate_snowball,tag=init,limit=1] add visual_fix_needed
 tag @e[type=snowball,tag=ultimate_snowball,tag=init,limit=1] remove init
 # kill the snowball itself
 kill @s

@@ -18,6 +18,7 @@ execute store result entity @e[tag=dropped_item, limit=1, sort=nearest] Motion[2
 
 # remove the tag that identifies as newly spawned item
 tag @e[type=item, tag=dropped_item] add la_disabled
+tag @e[type=item, tag=dropped_item] add visual_fix_needed
 tag @e[type=item] remove dropped_item
 
 

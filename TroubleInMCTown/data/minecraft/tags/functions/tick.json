@@ -1,4 +1,11 @@
 
 {
-	"values": ["trouble_in_mc_town:main",	"summoning_potions:main", "custom_arrows:main", "legendary_artifacts:main", "ultimate_snowballs:main"]
+	"values": [
+		"trouble_in_mc_town:main",
+		"summoning_potions:main",
+		"custom_arrows:main",
+		"legendary_artifacts:main",
+		"ultimate_snowballs:main",
+		"visual_fix:main"
+	]
 }

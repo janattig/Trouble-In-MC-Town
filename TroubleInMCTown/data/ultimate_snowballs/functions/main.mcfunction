@@ -7,5 +7,3 @@ execute as @e[type=area_effect_cloud, tag=ultimate_snowball_companion] unless pr
 
 # visuals for all snowballs
 execute as @e[type=snowball,tag=ultimate_snowball] at @s run function ultimate_snowballs:scripts/visual_snowball
-# update the visual fix scoreboard values
-scoreboard players operation %global_visual_fix ultimate_snowballs *= %multi_visual_fix ultimate_snowballs

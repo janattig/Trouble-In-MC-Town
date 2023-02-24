@@ -17,6 +17,7 @@ scoreboard players remove %random_number ca_effects 50
 execute store result entity @e[tag=dropped_item, limit=1, sort=nearest] Motion[2] double 0.002 run scoreboard players get %random_number ca_effects
 
 # remove the tag that identifies as newly spawned item
+tag @e[type=item, tag=dropped_item] add visual_fix_needed
 tag @e[type=item] remove dropped_item
 
 
