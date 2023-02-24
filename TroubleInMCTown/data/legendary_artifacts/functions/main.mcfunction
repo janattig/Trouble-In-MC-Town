@@ -24,4 +24,4 @@ execute if entity @a[tag=la_wields_artifact] run function legendary_artifacts:ha
 
 
 # find items on ground
-execute as @e[type=item, nbt={Item:{tag:{legendary_artifact:1b}}}] at @s run function legendary_artifacts:handle_item_on_ground
+execute as @e[type=item, nbt={Item:{tag:{legendary_artifact:1b}}}, tag=!la_disabled] at @s run function legendary_artifacts:handle_item_on_ground

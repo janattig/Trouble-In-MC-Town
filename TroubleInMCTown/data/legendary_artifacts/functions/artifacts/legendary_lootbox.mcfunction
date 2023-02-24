@@ -14,6 +14,7 @@ execute as @e[type=marker, tag=la_option_1, tag=la_tmp_option, tag=la_chosen] at
 
 # option 2: spawn item
 execute as @e[type=marker, tag=la_option_2, tag=la_tmp_option, tag=la_chosen] at @s run loot spawn ~ ~ ~ loot legendary_artifacts:legendary_lootbox_content
+execute as @e[type=marker, tag=la_option_2, tag=la_tmp_option, tag=la_chosen] at @s run tag @e[type=item, distance=..0.0001, sort=nearest, limit=1] add la_disabled
 execute as @e[type=marker, tag=la_option_2, tag=la_tmp_option, tag=la_chosen] at @s run particle poof ~ ~ ~ 0.5 0.5 0.5 1 30
 execute as @e[type=marker, tag=la_option_2, tag=la_tmp_option, tag=la_chosen] at @s run particle firework ~ ~ ~ 0 0 0 1 1
 
