@@ -19,6 +19,8 @@ summon marker ~ ~ ~ {Tags:["la_option_4", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_5", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_6", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_7", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_8", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_9", "la_tmp_option"]}
 # mark a random option as chosen
 tag @e[type=marker, tag=la_tmp_option, limit=1, sort=random, distance=..1] add la_chosen
 
@@ -30,6 +32,8 @@ execute as @e[type=marker, tag=la_option_4, tag=la_tmp_option, tag=la_chosen] at
 execute as @e[type=marker, tag=la_option_5, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/levitation
 execute as @e[type=marker, tag=la_option_6, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/teleport
 execute as @e[type=marker, tag=la_option_7, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/drop_items
+execute as @e[type=marker, tag=la_option_8, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/creepers
+execute as @e[type=marker, tag=la_option_9, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/enderman
 
 
 
