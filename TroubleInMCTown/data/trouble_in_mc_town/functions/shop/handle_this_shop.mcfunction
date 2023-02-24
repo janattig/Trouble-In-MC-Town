@@ -16,8 +16,8 @@ execute as @e[tag=ttt_shop] run execute if score @s ttt_shop = @e[tag=ttt_traito
 # add the active tag, if the selected item of the player is a traitor shop
 execute if entity @a[tag=has_shop, tag=shop_player, nbt={SelectedItem:{tag:{traitor_shop:1b}}}] run tag @s add shop_active
 
-# if shop is inactive, teleport the villager back to the home
-execute as @s[tag=!shop_active] run tp @e[tag=shop_shop] @s
+# if shop is inactive, teleport the villager back to the home (if he is not already at the home marker)
+execute as @s[tag=!shop_active] run tp @e[tag=shop_shop, distance=1..] @s
 # if shop is active, teleport the villager to the player
 execute as @s[tag=shop_active] run execute as @p[tag=shop_player] at @s run function trouble_in_mc_town:shop/teleport_shop_to_self
 
