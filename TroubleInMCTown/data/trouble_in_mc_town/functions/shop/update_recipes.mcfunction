@@ -9,6 +9,7 @@ function trouble_in_mc_town:shop/trades/legendary/explosion_crystal
 function trouble_in_mc_town:shop/trades/legendary/lightning_shard
 function trouble_in_mc_town:shop/trades/legendary/cane_of_clarity
 function trouble_in_mc_town:shop/trades/legendary/chaos_crystal
+function trouble_in_mc_town:shop/trades/legendary/ender_stone
 function trouble_in_mc_town:shop/trades/legendary/legendary_lootbox
 
 # netherite items
