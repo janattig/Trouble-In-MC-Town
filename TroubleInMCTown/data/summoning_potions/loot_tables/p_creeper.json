@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:65293,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Creep\",\"italic\":false}]',Lore:['[{\"text\":\"Summons an explosive Creeper\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"creeper\"}"
+              "tag": "{CustomPotionColor:65293,summoning_potion:1b,sp_summons:\"creeper\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Charged Creep",
+                    "bold": true,
+                    "color": "#00FF0D"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "1",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Charged Creeper",
+                    "color": "#00FF0D",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

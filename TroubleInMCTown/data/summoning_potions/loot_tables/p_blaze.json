@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:16757504,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Infernal Blaze\",\"italic\":false}]',Lore:['[{\"text\":\"Summons a fiery Blaze\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"blaze\"}"
+              "tag": "{CustomPotionColor:16757504,summoning_potion:1b,sp_summons:\"blaze\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Infernal Blaze",
+                    "bold": true,
+                    "color": "#FFB300"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "1",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Blaze",
+                    "color": "#FFB300",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:12237240,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of the Skeletal Army\",\"italic\":false}]',Lore:['[{\"text\":\"Summons a group of Skeleton soldiers\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"skeleton\"}"
+              "tag": "{CustomPotionColor:12237240,summoning_potion:1b,sp_summons:\"skeleton\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of the",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Skeletal Army",
+                    "bold": true,
+                    "color": "#BAB9B8"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "5",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Skeletons",
+                    "color": "#BAB9B8",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

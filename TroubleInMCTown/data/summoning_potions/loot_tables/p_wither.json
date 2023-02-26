@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:3023651,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Wither\",\"italic\":false}]',Lore:['[{\"text\":\"Summons a mighty Wither Skeleton\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"wither_skeleton\"}"
+              "tag": "{CustomPotionColor:3023651,summoning_potion:1b,sp_summons:\"wither_skeleton\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Triumphal Wither",
+                    "bold": true,
+                    "color": "#6E6060"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "1",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Wither Skeleton Champion",
+                    "color": "#6E6060",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

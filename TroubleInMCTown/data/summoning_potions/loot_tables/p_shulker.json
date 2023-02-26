@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:14645215,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of the Shulk\",\"italic\":false}]',Lore:['[{\"text\":\"Summons an angry Shulker\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"shulker\"}"
+              "tag": "{CustomPotionColor:14645215,summoning_potion:1b,sp_summons:\"shulker\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Shulk",
+                    "bold": true,
+                    "color": "#DF77DF"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "1",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Shulker",
+                    "color": "#DF77DF",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

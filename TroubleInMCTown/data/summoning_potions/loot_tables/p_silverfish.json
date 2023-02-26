@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:11190474,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Trippling Bugs\",\"italic\":false}]',Lore:['[{\"text\":\"Summons a horde of Silverfish\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"silverfish\"}"
+              "tag": "{CustomPotionColor:11190474,summoning_potion:1b,sp_summons:\"silverfish\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Trippling Bugs",
+                    "bold": true,
+                    "color": "#AAC0CA"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "10",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Silverfish",
+                    "color": "#AAC0CA",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

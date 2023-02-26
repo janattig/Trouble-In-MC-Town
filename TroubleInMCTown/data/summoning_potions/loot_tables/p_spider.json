@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:7834239,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Hidden Spiders\",\"italic\":false}]',Lore:['[{\"text\":\"Summons some spiders\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"spider\"}"
+              "tag": "{CustomPotionColor:7834239,summoning_potion:1b,sp_summons:\"spider\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Hidden Spiders",
+                    "bold": true,
+                    "color": "#778A7F"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "4",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Spiders",
+                    "color": "#778A7F",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

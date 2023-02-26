@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:6128827,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of Phantasmal Wings\",\"italic\":false}]',Lore:['[{\"text\":\"Summons a group of Phantoms\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"phantom\"}"
+              "tag": "{CustomPotionColor:6128827,summoning_potion:1b,sp_summons:\"phantom\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Phantasmal Wings",
+                    "bold": true,
+                    "color": "#5D84BB"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "5",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Phantoms",
+                    "color": "#5D84BB",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

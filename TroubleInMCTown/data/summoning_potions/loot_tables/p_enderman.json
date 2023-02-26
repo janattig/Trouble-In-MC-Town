@@ -10,7 +10,55 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:3214174,EntityTag:{Invisible:1},display:{Name:'[{\"text\":\"Summoning Potion of the Ender Trio\",\"italic\":false}]',Lore:['[{\"text\":\"Summons three Endermen\",\"italic\":false}]']},summoning_potion:1b,sp_summons:\"enderman\"}"
+              "tag": "{CustomPotionColor:3214174,summoning_potion:1b,sp_summons:\"enderman\",HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Summoning Potion of the",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": " Ender Trio",
+                    "bold": true,
+                    "color": "#916BAE"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Throw to summon ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "3",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " Endermen",
+                    "color": "#916BAE",
+                    "italic": true
+                  },
+                  {
+                    "text": " on impact",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }
