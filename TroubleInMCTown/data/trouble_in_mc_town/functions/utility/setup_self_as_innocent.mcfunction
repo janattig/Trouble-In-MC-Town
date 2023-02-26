@@ -15,8 +15,8 @@ tellraw @s ["",{"text":"> Objective:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Survive until the time runs out OR elminate all Traitors","color":"gray"}]
 tellraw @s ["",{"text":"> Hints:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Find loot in chests and barrels","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Traitors can find ","color":"gray"},{"text":"$TC","color":"red"},{"text":" currency if they are alone","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Traitors exchange ","color":"gray"},{"text":"$TC","color":"red"},{"text":" in the Traitor Shop (book)","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Traitors obtain ","color":"gray"},{"text":"$TC","color":"red"},{"text":" currency","color":"green"},{"text":" if an Innocent dies","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Traitors can buy loot from the ","color":"gray"},{"text":"Traitor Shop (book)","color":"white"}]
 
 title @s times 10 120 50
 title @s title {"text":"Innocent","bold":true,"color":"blue"}

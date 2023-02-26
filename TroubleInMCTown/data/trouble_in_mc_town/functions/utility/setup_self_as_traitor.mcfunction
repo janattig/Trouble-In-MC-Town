@@ -8,10 +8,6 @@ clear @s
 # give random loot
 loot give @s loot trouble_in_mc_town:normal_starting
 
-# setup traitor shop for self
-function trouble_in_mc_town:shop/init_traitor_shop_for_self
-loot give @s loot trouble_in_mc_town:traitor_shop
-
 # cannot be targeted by summoning potions
 tag @s add sp_no_target
 
@@ -27,8 +23,16 @@ tellraw @s ["",{"text":"> Objective:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Eliminate all Innocents before the time runs out","color":"gray"}]
 tellraw @s ["",{"text":"> Hints:"}]
 tellraw @s ["",{"text":"  > "},{"text":"Find loot in chests and barrels","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Find ","color":"gray"},{"text":"$TC","color":"red"},{"text":" currency if you are alone","color":"gray"}]
-tellraw @s ["",{"text":"  > "},{"text":"Buy Traitor loot for ","color":"gray"},{"text":"$TC","color":"red"},{"text":" in the Traitor Shop (book)","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Get ","color":"gray"},{"text":"$TC","color":"red"},{"text":" emeralds","color":"green"},{"text":" when an Innocent dies","color":"gray"}]
+tellraw @s ["",{"text":"  > "},{"text":"Buy Traitor loot in the ","color":"gray"},{"text":"Traitor Shop (book)","color":"white"}]
+
+
+# setup traitor shop for self
+function trouble_in_mc_town:shop/init_traitor_shop_for_self
+loot give @s loot trouble_in_mc_town:traitor_shop
+# give starting money
+function trouble_in_mc_town:utility/traitor_give_self_money_start
+
 
 title @s times 10 120 50
 title @s title {"text":"Traitor","bold":true,"color":"red"}

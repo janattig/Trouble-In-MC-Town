@@ -17,6 +17,9 @@ scoreboard players reset @s ttt_uuid_1
 scoreboard players reset @s ttt_uuid_2
 scoreboard players reset @s ttt_uuid_3
 
+# if the head belonged to an innocent, give each traitor money
+execute as @s[nbt={Item:{tag:{innocent:1b}}}] run execute as @a[tag=ttt_traitor] at @s run function trouble_in_mc_town:utility/traitor_give_self_money_innocent_dies
+
 # indicate that the kill was resolved
 data modify entity @s Item.tag.needs_resolving set value 0b
 tag @s remove ttt_resolving

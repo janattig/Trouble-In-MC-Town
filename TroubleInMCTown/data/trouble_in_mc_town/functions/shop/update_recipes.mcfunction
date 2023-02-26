@@ -14,7 +14,7 @@ function trouble_in_mc_town:shop/trades/legendary/legendary_lootbox
 
 # netherite items
 function trouble_in_mc_town:shop/trades/traitor/netherite_sword
-function trouble_in_mc_town:shop/trades/conversion/diamond_to_netherite
+#function trouble_in_mc_town:shop/trades/conversion/diamond_to_netherite
 
 # diamond items
 function trouble_in_mc_town:shop/trades/traitor/fancy_bow
@@ -24,7 +24,7 @@ function trouble_in_mc_town:shop/trades/traitor/diamond_helmet
 function trouble_in_mc_town:shop/trades/traitor/diamond_chestplate
 function trouble_in_mc_town:shop/trades/traitor/diamond_leggings
 function trouble_in_mc_town:shop/trades/traitor/diamond_boots
-function trouble_in_mc_town:shop/trades/conversion/emerald_to_diamond
+#function trouble_in_mc_town:shop/trades/conversion/emerald_to_diamond
 
 # summoning potions
 function trouble_in_mc_town:shop/trades/traitor/summoning_potion_spider
@@ -61,5 +61,3 @@ function trouble_in_mc_town:shop/trades/traitor/golden_apple
 function trouble_in_mc_town:shop/trades/traitor/levitating_splash_potion
 function trouble_in_mc_town:shop/trades/traitor/invisibility_potion
 function trouble_in_mc_town:shop/trades/traitor/glowing_powder
-
-# add trades for everybody

@@ -6,10 +6,6 @@ loot replace entity @s villager.0 loot trouble_in_mc_town:traitor_currency/emera
 data modify entity @s Offers.Recipes[0].buy set from entity @s Inventory[0]
 data modify entity @s Offers.Recipes[0].buy.Count set value 7b
 
-loot replace entity @s villager.0 loot trouble_in_mc_town:traitor_currency/diamond
-data modify entity @s Offers.Recipes[0].buyB set from entity @s Inventory[0]
-data modify entity @s Offers.Recipes[0].buyB.Count set value 1b
-
 item replace entity @s villager.0 with diamond_boots{Enchantments:[{id:"minecraft:protection",lvl:3s},{id:"minecraft:feather_falling",lvl:1s},{id:"minecraft:depth_strider",lvl:1s},{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}]} 1
 item modify entity @s villager.0 trouble_in_mc_town:designate_traitor_item
 data modify entity @s Offers.Recipes[0].sell set from entity @s Inventory[0]
