@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:16757504,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:4,Amplifier:17,Duration:100}],HideFlags:32}"
+              "tag": "{CustomPotionColor:16318412,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:4,Amplifier:17,Duration:100}],HideFlags:32}"
             },
             {
               "function": "minecraft:set_name",
@@ -42,7 +42,7 @@
                     "italic": true
                   },
                   {
-                    "text": " drops all items",
+                    "text": "drops all items",
                     "color": "#F8FFCC",
                     "italic": true
                   }
