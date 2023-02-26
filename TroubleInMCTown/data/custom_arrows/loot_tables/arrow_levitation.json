@@ -10,7 +10,45 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:9823472,CustomPotionEffects:[{Id:4,Amplifier:16,Duration:100}],display:{Name:\"\\\"Arrow of Levitation\\\"\",Lore:['[{\"text\":\"Targets in the area start to rise upwards\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{CustomPotionColor:9823472,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:4,Amplifier:16,Duration:100}],HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Arrow of ",
+                    "bold": false,
+                    "color": "white"
+                  },
+                  {
+                    "text": "Levitation",
+                    "bold": true,
+                    "color": "#95E4F0"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Targets in area ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "rise upwards",
+                    "color": "#95E4F0",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

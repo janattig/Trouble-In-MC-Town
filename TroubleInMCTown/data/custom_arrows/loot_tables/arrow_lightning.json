@@ -10,7 +10,50 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16777011,CustomPotionEffects:[{Id:4,Amplifier:12,Duration:100}],display:{Name:\"\\\"Zapping Arrow of Summoned Lightning\\\"\",Lore:['[{\"text\":\"Strikes lightning at the target\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{CustomPotionColor:16777011,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:4,Amplifier:12,Duration:100}],HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Lightning",
+                    "bold": true,
+                    "color": "#FFFF33"
+                  },
+                  {
+                    "text": " Arrow",
+                    "bold": false,
+                    "color": "white"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Summons ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "lightning",
+                    "color": "#FFFF33",
+                    "italic": true
+                  },
+                  {
+                    "text": " at the target",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }

@@ -10,7 +10,50 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:water\",CustomPotionColor:16711680,CustomPotionEffects:[{Id:4,Amplifier:11,Duration:100}],display:{Name:\"\\\"Exploding Arrow of TNT\\\"\",Lore:['[{\"text\":\"Causes a massive explosion on impact\",\"italic\":false}]']},HideFlags:32}"
+              "tag": "{CustomPotionColor:16711680,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:4,Amplifier:11,Duration:100}],HideFlags:32}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                [
+                  {
+                    "text": "Exploding",
+                    "bold": true,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "text": " Arrow",
+                    "bold": false,
+                    "color": "white"
+                  }
+                ]
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Causes an ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "explosion",
+                    "color": "#FF0000",
+                    "italic": true
+                  },
+                  {
+                    "text": " at the target",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
             }
           ]
         }
