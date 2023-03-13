@@ -4,7 +4,7 @@ function trouble_in_mc_town:shop/add_new_recipe_slot
 # set the trade
 loot replace entity @s villager.0 loot trouble_in_mc_town:traitor_currency/emerald
 data modify entity @s Offers.Recipes[0].buy set from entity @s Inventory[0]
-data modify entity @s Offers.Recipes[0].buy.Count set value 3b
+data modify entity @s Offers.Recipes[0].buy.Count set value 2b
 
 loot replace entity @s villager.0 loot summoning_potions:p_blaze
 item modify entity @s villager.0 trouble_in_mc_town:designate_traitor_item
