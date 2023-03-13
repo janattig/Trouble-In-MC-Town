@@ -24,6 +24,9 @@ kill @e[type=experience_orb]
 tag @a remove pd_portal_prevent_tp
 # everybody can be targeted by summoning potions again
 tag @a remove sp_no_target
+# remove tags related to legendary items
+tag @a remove la_cc_effected
+tag @a remove la_unaffected
 # loot chests are removed
 function trouble_in_mc_town:utility/loot_chests/remove_all_chests
 
