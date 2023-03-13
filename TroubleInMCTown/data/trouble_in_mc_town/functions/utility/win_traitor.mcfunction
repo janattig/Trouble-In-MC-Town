@@ -10,10 +10,10 @@ execute as @a[tag=ttt_participating] at @s run title @s[tag=ttt_participating, t
 # tell to chat
 tellraw @a[tag=ttt_participating] ["", {"text":"> "},{"text":"Traitor","bold":true,"color":"red"}, {"text":" win!"}]
 tellraw @a[tag=ttt_participating, tag=ttt_innocent] ["", {"text":"> + "},{"text":"0","bold":true,"color":"blue"}, {"text":" points"}]
-tellraw @a[tag=ttt_participating, tag=ttt_traitor] ["", {"text":"> + "},{"text":"10","bold":true,"color":"red"}, {"text":" points"}]
+tellraw @a[tag=ttt_participating, tag=ttt_traitor] ["", {"text":"> + "},{"text":"5","bold":true,"color":"red"}, {"text":" points"}]
 
 # give points to winning team
-scoreboard players add @a[tag=ttt_participating, tag=ttt_traitor] ttt_score 10
+scoreboard players add @a[tag=ttt_participating, tag=ttt_traitor] ttt_score 5
 
 # end the round by setting variable
 scoreboard players set #round_starting ttt_booleans 0

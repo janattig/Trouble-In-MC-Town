@@ -1,7 +1,7 @@
 # innocent killed by innocent
-execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run title @s subtitle ["", {"text":"Teamkill!  (-","color":"white"},{"text":"2","color":"blue"},{"text":" point)","color":"white"}]
-execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run scoreboard players remove @s ttt_score 2
-execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run tellraw @s ["", {"text":"> -"},{"text":"2","bold":true,"color":"blue"}, {"text":" points (Teamkill)"}]
+execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run title @s subtitle ["", {"text":"Teamkill!  (-","color":"white"},{"text":"1","color":"blue"},{"text":" point)","color":"white"}]
+execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run scoreboard players remove @s ttt_score 1
+execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{innocent:1b}}}] run tellraw @s ["", {"text":"> -"},{"text":"1","bold":true,"color":"blue"}, {"text":" points (Teamkill)"}]
 
 # traitor killed by innocent
 execute as @s[tag=ttt_innocent] if entity @e[type=item, tag=ttt_resolving, nbt={Item:{tag:{traitor:1b}}}] run title @s subtitle ["", {"text":"You killed a traitor!  (+","color":"white"},{"text":"1","color":"blue"},{"text":" point)","color":"white"}]
