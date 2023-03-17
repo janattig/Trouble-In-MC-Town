@@ -73,6 +73,9 @@ execute as @a[tag=ttt_want_to_participate] at @s run execute if block ~ ~ ~ mine
 # make participating players glow
 effect give @a[tag=ttt_want_to_participate] glowing 3
 
+# remove all traitor shops (which might be open for test purposes)
+function trouble_in_mc_town:shop/remove_all_shops
+
 
 # setup countdown
 scoreboard players operation #round_starting ttt_countdowns = #rs_secs ttt_countdowns
