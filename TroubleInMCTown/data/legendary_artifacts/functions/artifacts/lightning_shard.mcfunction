@@ -1,6 +1,7 @@
 # find out if there are lightning strikes happening to entities around
 tag @e remove lightning_targets
-execute as @s[nbt={HurtTime:9s}] run tag @e[distance=0.1..15, limit=2, sort=random, tag=!la_unaffected, gamemode=!spectator] add lightning_targets
+execute as @s[nbt={HurtTime:9s}] run tag @e[distance=0.1..15, limit=2, sort=random, tag=!la_unaffected, type=!player] add lightning_targets
+execute as @s[nbt={HurtTime:9s}] run tag @a[distance=0.1..15, limit=2, sort=random, tag=!la_unaffected, gamemode=!spectator] add lightning_targets
 
 # give fire resistance if needed
 execute if entity @e[tag=lightning_targets] run effect give @s fire_resistance 1 1
