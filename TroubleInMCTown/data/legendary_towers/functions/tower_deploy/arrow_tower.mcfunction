@@ -8,6 +8,10 @@ scoreboard players set @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_coo
 # remove the new tag on the marker
 tag @e[tag=lt_new] remove lt_new
 
+# play a sound
+playsound block.end_portal.spawn ambient @a ~ ~ ~ 0.1 2.0
+playsound minecraft:ambient.crimson_forest.mood ambient @a ~ ~ ~ 0.5
+
 
 
 # summon decoration entities
