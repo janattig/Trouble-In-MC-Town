@@ -4,8 +4,9 @@
 		"trouble_in_mc_town:main",
 		"summoning_potions:main",
 		"custom_arrows:main",
-		"legendary_artifacts:main",
+		"legendary_towers:main",
 		"ultimate_snowballs:main",
+		"legendary_artifacts:main",
 		"visual_fix:main"
 	]
 }

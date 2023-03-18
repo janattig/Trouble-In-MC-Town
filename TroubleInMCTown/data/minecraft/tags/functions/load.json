@@ -4,6 +4,7 @@
 		"trouble_in_mc_town:reload",
 		"custom_arrows:init",
 		"legendary_artifacts:init",
+		"legendary_towers:init",
 		"summoning_potions:install",
 		"ultimate_snowballs:install",
 		"visual_fix:install"
