@@ -1,11 +1,12 @@
 # maybe find a target
-tag @a[gamemode=!spectator, distance=..12, limit=1, sort=random] add lt_potential_target
+execute as @e[distance=..15, type=!player, type=!armor_stand] at @s run execute if data entity @s Brain run tag @s add lt_potential_target
+execute as @a[distance=..15, gamemode=!spectator] at @s run tag @s add lt_potential_target
 tag @s add lt_shooting_tower
 # check targets
 function legendary_towers:tower_effects/check_potential_targets_recursively
 # make a targetable player the target
-tag @a[tag=lt_targetable, limit=1, sort=random] add lt_target
-tag @a remove lt_targetable
+tag @e[tag=lt_targetable, limit=1, sort=random] add lt_target
+tag @e remove lt_targetable
 tag @s remove lt_shooting_tower
 
 # if there is a target, shoot
