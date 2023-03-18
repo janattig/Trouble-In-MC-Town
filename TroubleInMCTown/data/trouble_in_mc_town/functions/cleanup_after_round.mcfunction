@@ -95,3 +95,6 @@ function trouble_in_mc_town:shop/remove_all_shops
 
 # update scores
 function trouble_in_mc_town:utility/update_scores
+
+# remove all towers
+function legendary_towers:remove_all_towers

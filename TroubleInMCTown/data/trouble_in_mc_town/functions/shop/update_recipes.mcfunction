@@ -25,6 +25,10 @@ function trouble_in_mc_town:shop/trades/traitor/diamond_chestplate
 function trouble_in_mc_town:shop/trades/traitor/diamond_leggings
 function trouble_in_mc_town:shop/trades/traitor/diamond_boots
 
+# legendary towers
+function trouble_in_mc_town:shop/trades/tower/arrow_rapid
+function trouble_in_mc_town:shop/trades/tower/arrow
+
 # summoning potions
 function trouble_in_mc_town:shop/trades/traitor/summoning_potion_spider
 function trouble_in_mc_town:shop/trades/traitor/summoning_potion_wither
