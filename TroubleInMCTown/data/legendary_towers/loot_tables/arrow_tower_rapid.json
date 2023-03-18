@@ -61,20 +61,6 @@
               "replace": true
             },
             {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
-                [
-                  {
-                    "text": "(Drop item to deploy tower)",
-                    "color": "gray",
-                    "italic": true
-                  }
-                ]
-              ],
-              "replace": false
-            },
-            {
               "function": "set_nbt",
               "tag": "{range:15b,cooldown:2}"
             },
@@ -114,6 +100,58 @@
                   },
                   {
                     "text": "0.1",
+                    "color": "white",
+                    "italic": true
+                  },
+                  {
+                    "text": " sec",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "(Drop item to deploy tower)",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Deployment: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "10",
                     "color": "white",
                     "italic": true
                   },
