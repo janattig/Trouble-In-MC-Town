@@ -1,4 +1,7 @@
 # maybe find a target
+tag @e remove lt_potential_target
+tag @e remove lt_targetable
+tag @e remove lt_target
 execute as @e[distance=..15, type=!player, type=!armor_stand] at @s run execute if data entity @s Brain run tag @s add lt_potential_target
 execute as @a[distance=..15, gamemode=!spectator] at @s run tag @s add lt_potential_target
 tag @s add lt_shooting_tower
