@@ -21,4 +21,4 @@ tag @s remove lt_shooting_tower
 
 
 # remove far away projectiles
-kill @e[distance=20.., tag=lt_fireball]
+execute as @e[tag=lt_fireball] at @s run execute unless entity @e[tag=!lt_summoned, distance=..20] run kill @s
