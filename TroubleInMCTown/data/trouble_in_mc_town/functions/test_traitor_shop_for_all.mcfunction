@@ -2,6 +2,7 @@
 function trouble_in_mc_town:shop/remove_all_shops
 # remove traitor shop items from inventory
 clear @a book{traitor_shop:1b}
+clear @a emerald
 
 
 # init a traitor shop for everybody
