@@ -26,9 +26,9 @@ function trouble_in_mc_town:shop/trades/traitor/diamond_leggings
 function trouble_in_mc_town:shop/trades/traitor/diamond_boots
 
 # legendary towers
-function trouble_in_mc_town:shop/trades/tower/fireball
 function trouble_in_mc_town:shop/trades/tower/arrow_rapid
 function trouble_in_mc_town:shop/trades/tower/arrow
+function trouble_in_mc_town:shop/trades/tower/fireball
 
 # summoning potions
 function trouble_in_mc_town:shop/trades/traitor/summoning_potion_spider
