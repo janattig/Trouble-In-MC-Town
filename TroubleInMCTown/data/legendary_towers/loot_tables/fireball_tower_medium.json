@@ -14,13 +14,18 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{cooldown:6,build_cooldown:200, speed:1, explosion:0, fireball_size:1}"
+              "tag": "{cooldown:80,build_cooldown:200, speed:1, explosion:1, fireball_size:2}"
             },
             {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
                 [
+                  {
+                    "text": "Medium ",
+                    "bold": true,
+                    "color": "white"
+                  },
                   {
                     "text": "Fireball",
                     "bold": true,
@@ -94,7 +99,7 @@
                     "italic": true
                   },
                   {
-                    "text": "0.3",
+                    "text": "4",
                     "color": "white",
                     "italic": true
                   },
@@ -118,12 +123,12 @@
                     "italic": true
                   },
                   {
-                    "text": "\u2764\u2764",
+                    "text": "\u2764\u2764\u2764",
                     "color": "white",
                     "italic": true
                   },
                   {
-                    "text": " (+fire)",
+                    "text": " (+explosion)",
                     "color": "gray",
                     "italic": true
                   }
@@ -142,7 +147,26 @@
                     "italic": true
                   },
                   {
-                    "text": " small",
+                    "text": " large",
+                    "color": "white",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Explosion: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": " normal",
                     "color": "white",
                     "italic": true
                   }

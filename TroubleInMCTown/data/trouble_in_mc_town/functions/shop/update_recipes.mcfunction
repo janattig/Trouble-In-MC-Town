@@ -28,6 +28,7 @@ function trouble_in_mc_town:shop/trades/traitor/diamond_boots
 # legendary towers
 function trouble_in_mc_town:shop/trades/tower/arrow_rapid
 function trouble_in_mc_town:shop/trades/tower/arrow
+function trouble_in_mc_town:shop/trades/tower/fireball_medium
 function trouble_in_mc_town:shop/trades/tower/fireball
 
 # summoning potions

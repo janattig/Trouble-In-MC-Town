@@ -5,6 +5,8 @@ summon marker ~ ~1 ~ {Tags:["legendary_tower", "fireball_tower", "lt_new"]}
 execute store result score @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_cooldowns_max run data get entity @s Item.tag.cooldown
 execute store result score @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_cooldowns run data get entity @s Item.tag.build_cooldown
 execute store result score @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_speed_multiplier run data get entity @s Item.tag.speed
+execute store result score @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_damage run data get entity @s Item.tag.fireball_size
+execute store result score @e[tag=lt_new, type=marker, limit=1, sort=nearest] lt_damage_2 run data get entity @s Item.tag.explosion
 
 # remove the new tag on the marker
 tag @e[tag=lt_new] remove lt_new
