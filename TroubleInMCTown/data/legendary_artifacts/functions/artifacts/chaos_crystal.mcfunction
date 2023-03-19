@@ -24,6 +24,10 @@ summon marker ~ ~ ~ {Tags:["la_option_9", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_10", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_11", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_12", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_13", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_14", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_15", "la_tmp_option"]}
+
 # mark a random option as chosen
 execute as @e[sort=random, limit=1] run tag @e[type=marker, tag=la_tmp_option, limit=1, sort=random, distance=..1] add la_chosen
 
@@ -40,6 +44,9 @@ execute as @e[type=marker, tag=la_option_9, tag=la_tmp_option, tag=la_chosen] at
 execute as @e[type=marker, tag=la_option_10, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/sheep
 execute as @e[type=marker, tag=la_option_11, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/bats
 execute as @e[type=marker, tag=la_option_12, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/spiders
+execute as @e[type=marker, tag=la_option_13, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/parrots
+execute as @e[type=marker, tag=la_option_14, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/armor_replacement
+execute as @e[type=marker, tag=la_option_15, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/mob_pinata
 
 
 

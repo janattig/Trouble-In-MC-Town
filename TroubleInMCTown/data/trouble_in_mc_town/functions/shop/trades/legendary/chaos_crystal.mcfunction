@@ -12,4 +12,4 @@ data modify entity @s Offers.Recipes[0].sell set from entity @s Inventory[0]
 data modify entity @s Offers.Recipes[0].sell.Count set value 1b
 
 # limit number of uses
-data modify entity @s Offers.Recipes[0].maxUses set value 15b
+data modify entity @s Offers.Recipes[0].maxUses set value 32b

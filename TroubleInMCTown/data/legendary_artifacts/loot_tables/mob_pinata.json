@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:cane_of_clarity",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:elven_boots_of_swiftness",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:explosion_crystal",
+          "weight": 2
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:fireflame",
+          "weight": 1
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:lightning_shard",
+          "weight": 3
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:tunic_of_regeneration",
+          "weight": 3
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:self_defense_stick",
+          "weight": 5
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 30,
+          "name":   "minecraft:golden_apple"
+        },
+        {
+          "type":   "minecraft:item",
+          "weight": 10,
+          "name":   "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:mob_pinata/trident_random",
+          "weight": 30
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:mob_pinata/high_quality_armor",
+          "weight": 100
+        },
+        {
+          "type":   "minecraft:loot_table",
+          "name":   "legendary_artifacts:mob_pinata/high_quality_weapon",
+          "weight": 100
+        }
+      ]
+    }
+  ]
+}
