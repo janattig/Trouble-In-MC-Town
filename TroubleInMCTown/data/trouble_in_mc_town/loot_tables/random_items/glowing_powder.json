@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:16775060,display:{Name:'[{\"text\":\"Explosive glowing Powder\",\"italic\":false}]',Lore:['[{\"text\":\"Makes everyone visible for 10 seconds\",\"italic\":false}]']},CustomPotionEffects:[{Id:24,Duration:200}],glowing_powder:1b}"
+              "tag": "{CustomPotionColor:16775060,display:{Name:'[{\"text\":\"Explosive glowing Powder\",\"italic\":false}]',Lore:['[{\"text\":\"Makes everyone visible for 10 seconds\",\"italic\":false}]']},Enchantments:[{}],CustomPotionEffects:[{Id:24,Duration:200}],glowing_powder:1b}"
             }
           ]
         }
