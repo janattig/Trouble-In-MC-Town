@@ -92,6 +92,9 @@ gamerule showDeathMessages true
 
 # remove all traitor shops
 function trouble_in_mc_town:shop/remove_all_shops
+# remove traitor shop items from inventory
+clear @a book{traitor_shop:1b}
+clear @a emerald
 
 # update scores
 function trouble_in_mc_town:utility/update_scores
