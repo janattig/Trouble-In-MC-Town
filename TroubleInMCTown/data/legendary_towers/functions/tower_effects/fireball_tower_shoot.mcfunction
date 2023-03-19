@@ -1,5 +1,5 @@
 # initiate shooting
-particle crit ~ ~ ~ 0 0 0 1 10
+particle flame ~ ~ ~ 0 0 0 0.1 10
 
 # summon a new arrow
 execute if score @s lt_damage matches 1 run summon small_fireball ~ ~ ~ {Tags:["lt_summoned", "lt_fireball", "lt_new", "visual_fix_needed"]}

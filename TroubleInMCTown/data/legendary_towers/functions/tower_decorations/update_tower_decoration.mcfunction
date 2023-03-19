@@ -1,7 +1,7 @@
 # rotate the decoration
 execute store result score @s legendary_towers run data get entity @s Rotation[0] 10.0
 scoreboard players add @s legendary_towers 42
-execute store result entity @s Rotation[0] float 0.1 run scoreboard players get @s legendary_towers
+execute as @s[tag=!lt_stationary] run execute store result entity @s Rotation[0] float 0.1 run scoreboard players get @s legendary_towers
 #scoreboard players reset @s legendary_towers
 
 # check change of readiness

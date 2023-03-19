@@ -14,7 +14,7 @@ execute as @s[tag=fireball_tower, scores={lt_cooldowns=0}] at @s run function le
 
 
 # additional effects depending on tag
-execute as @s[tag=arrow_tower, tag=lt_deployed] at @s run particle soul_fire_flame ~ ~ ~ 0 0 0 0.01 1
+execute as @s[tag=arrow_tower, tag=lt_deployed] at @s run particle crit ~ ~ ~ 0 0 0 0.04 1
 execute as @s[tag=fireball_tower, tag=lt_deployed] at @s run particle flame ~ ~ ~ 0 0 0 0.01 3
 
 
