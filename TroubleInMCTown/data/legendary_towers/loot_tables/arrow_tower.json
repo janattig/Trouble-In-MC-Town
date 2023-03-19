@@ -13,6 +13,10 @@
               "tag": "{legendary_tower:1b,arrow_tower:1b,Enchantments:[{}],HideFlags:35}"
             },
             {
+              "function": "set_nbt",
+              "tag": "{cooldown:40, build_cooldown:160, damage:4.0d, speed:2}"
+            },
+            {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
@@ -56,10 +60,6 @@
               "replace": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{range:15b,cooldown:20}"
-            },
-            {
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -94,13 +94,51 @@
                     "italic": true
                   },
                   {
-                    "text": "1",
+                    "text": "2",
                     "color": "white",
                     "italic": true
                   },
                   {
                     "text": " sec",
                     "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Damage: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "\u2764\u2764\u2764\u2764",
+                    "color": "white",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Arrow speed multiplier: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "2x",
+                    "color": "white",
                     "italic": true
                   }
                 ]
@@ -146,7 +184,7 @@
                     "italic": true
                   },
                   {
-                    "text": "10",
+                    "text": "8",
                     "color": "white",
                     "italic": true
                   },

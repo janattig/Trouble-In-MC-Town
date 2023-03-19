@@ -13,6 +13,10 @@
               "tag": "{legendary_tower:1b,arrow_tower:1b,Enchantments:[{}],HideFlags:35}"
             },
             {
+              "function": "set_nbt",
+              "tag": "{cooldown:2, build_cooldown:200, damage:2.0d, speed:1}"
+            },
+            {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
@@ -61,10 +65,6 @@
               "replace": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{range:15b,cooldown:2}"
-            },
-            {
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -106,6 +106,44 @@
                   {
                     "text": " sec",
                     "color": "gray",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Damage: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "\u2764",
+                    "color": "white",
+                    "italic": true
+                  }
+                ]
+              ],
+              "replace": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "Arrow speed multiplier: ",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "1x",
+                    "color": "white",
                     "italic": true
                   }
                 ]

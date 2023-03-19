@@ -13,6 +13,10 @@
               "tag": "{legendary_tower:1b,fireball_tower:1b,Enchantments:[{}],HideFlags:35}"
             },
             {
+              "function": "set_nbt",
+              "tag": "{cooldown:6,build_cooldown:200, speed:1, explosion:0, fireball_size:1}"
+            },
+            {
               "function": "minecraft:set_name",
               "entity": "this",
               "name": [
@@ -56,10 +60,6 @@
               "replace": true
             },
             {
-              "function": "set_nbt",
-              "tag": "{range:12b,cooldown:30}"
-            },
-            {
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
@@ -94,7 +94,7 @@
                     "italic": true
                   },
                   {
-                    "text": "1.5",
+                    "text": "0.3",
                     "color": "white",
                     "italic": true
                   },

@@ -16,6 +16,12 @@ scoreboard players operation @s lt_motion_x -= @s lt_motion_x2
 scoreboard players operation @s lt_motion_y -= @s lt_motion_y2
 scoreboard players operation @s lt_motion_z -= @s lt_motion_z2
 
+# amplify motion by speed
+scoreboard players operation @s lt_motion_x *= @e[tag=lt_shooting_tower, limit=1, sort=nearest] lt_speed_multiplier
+scoreboard players operation @s lt_motion_y *= @e[tag=lt_shooting_tower, limit=1, sort=nearest] lt_speed_multiplier
+scoreboard players operation @s lt_motion_z *= @e[tag=lt_shooting_tower, limit=1, sort=nearest] lt_speed_multiplier
+
+
 # set motion
 execute store result entity @s Motion[0] double 0.00001 run scoreboard players get @s lt_motion_x
 execute store result entity @s Motion[1] double 0.00001 run scoreboard players get @s lt_motion_y

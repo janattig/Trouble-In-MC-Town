@@ -13,6 +13,9 @@ scoreboard objectives add lt_motion_x2 dummy
 scoreboard objectives add lt_motion_y2 dummy
 scoreboard objectives add lt_motion_z2 dummy
 
+# variables for damage stats
+scoreboard objectives add lt_speed_multiplier dummy
+scoreboard objectives add lt_damage dummy
 
 # remove all towers
 function legendary_towers:remove_all_towers

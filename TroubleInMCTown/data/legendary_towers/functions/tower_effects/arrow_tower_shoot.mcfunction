@@ -7,6 +7,8 @@ summon arrow ~ ~ ~ {Tags:["lt_summoned", "lt_arrow", "lt_new", "visual_fix_neede
 # play a sound
 playsound minecraft:block.basalt.hit ambient @a ~ ~ ~ 1 2
 
+# set damage related stats
+execute as @e[type=arrow,tag=lt_arrow,tag=lt_new,limit=1,sort=nearest] at @s run execute store result entity @s damage double 0.5 run scoreboard players get @e[tag=lt_shooting_tower, limit=1, sort=nearest] lt_damage
 # aim the arrow at the target
 execute as @e[type=arrow,tag=lt_arrow,tag=lt_new,limit=1,sort=nearest] at @s run function legendary_towers:tower_effects/aim_projectile_at_target
 # make arrow move a bit faster
