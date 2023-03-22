@@ -1,5 +1,5 @@
 # subtitle to tell which effect
-title @a[tag=la_cc_effected] subtitle [{"text":"Bats", "color":"brown"}, {"text":" haunt you", "color":"white"}]
+title @a[tag=la_cc_effected] subtitle [{"text":"Bats", "color":"#664400"}, {"text":" haunt you", "color":"white"}]
 
 # summon bats at every player
 execute as @a[tag=la_cc_effected] at @s run summon bat ~ ~ ~ {Tags:["sp_summoned"]}

@@ -27,6 +27,8 @@ summon marker ~ ~ ~ {Tags:["la_option_12", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_13", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_14", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_15", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_16", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_17", "la_tmp_option"]}
 
 # mark a random option as chosen
 execute as @e[sort=random, limit=1] run tag @e[type=marker, tag=la_tmp_option, limit=1, sort=random, distance=..1] add la_chosen
@@ -47,7 +49,12 @@ execute as @e[type=marker, tag=la_option_12, tag=la_tmp_option, tag=la_chosen] a
 execute as @e[type=marker, tag=la_option_13, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/parrots
 execute as @e[type=marker, tag=la_option_14, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/armor_replacement
 execute as @e[type=marker, tag=la_option_15, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/mob_pinata
+execute as @e[type=marker, tag=la_option_16, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/mob_to_frog
+execute as @e[type=marker, tag=la_option_17, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/mob_teleport_to_player
 
+
+# play a sound for all those effected
+execute as @a[tag=la_cc_effected] at @s run playsound block.bell.use ambient @s ~ ~ ~ 0.3 0.1
 
 
 # remove all markers and tags
