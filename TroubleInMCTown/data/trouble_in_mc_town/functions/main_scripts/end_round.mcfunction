@@ -2,6 +2,7 @@
 
 # remove spawned mobs (that were spawned with summoned potions)
 tp @e[type=!player, tag=sp_summoned] ~ -1000 ~
+kill @e[type=!player, tag=sp_summoned]
 
 # everybody loads there gamemode
 execute as @a at @s run function trouble_in_mc_town:utility/gamemode_backup/self_load_gamemode

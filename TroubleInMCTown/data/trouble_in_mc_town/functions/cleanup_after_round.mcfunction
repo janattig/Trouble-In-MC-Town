@@ -101,3 +101,7 @@ function trouble_in_mc_town:utility/update_scores
 
 # remove all towers
 function legendary_towers:remove_all_towers
+
+# remove spawned mobs (that were spawned with summoned potions)
+tp @e[type=!player, tag=sp_summoned] ~ -1000 ~
+kill @e[type=!player, tag=sp_summoned]
