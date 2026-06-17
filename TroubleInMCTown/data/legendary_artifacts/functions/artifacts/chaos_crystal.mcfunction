@@ -31,6 +31,7 @@ summon marker ~ ~ ~ {Tags:["la_option_16", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_17", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_18", "la_tmp_option"]}
 summon marker ~ ~ ~ {Tags:["la_option_19", "la_tmp_option"]}
+summon marker ~ ~ ~ {Tags:["la_option_20", "la_tmp_option"]}
 
 # mark a random option as chosen
 execute as @e[sort=random, limit=1] run tag @e[type=marker, tag=la_tmp_option, limit=1, sort=random, distance=..1] add la_chosen
@@ -55,6 +56,7 @@ execute as @e[type=marker, tag=la_option_16, tag=la_tmp_option, tag=la_chosen] a
 execute as @e[type=marker, tag=la_option_17, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/mob_teleport_to_player
 execute as @e[type=marker, tag=la_option_18, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/horses_for_everyone
 execute as @e[type=marker, tag=la_option_19, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/wolves_for_everyone
+execute as @e[type=marker, tag=la_option_20, tag=la_tmp_option, tag=la_chosen] at @s run function legendary_artifacts:artifacts/chaos_crystal/random_junk
 
 
 # play a sound for all those effected
