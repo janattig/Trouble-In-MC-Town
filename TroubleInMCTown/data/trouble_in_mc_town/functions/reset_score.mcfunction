@@ -1,0 +1,1 @@
+function trouble_in_mc_town:scoreboards/reset_scoreboard

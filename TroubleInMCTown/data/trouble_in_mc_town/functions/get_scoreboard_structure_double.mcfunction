@@ -1,0 +1,1 @@
+loot give @s loot trouble_in_mc_town:structure_ttt_scoreboard_double
