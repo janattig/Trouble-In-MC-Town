@@ -170,7 +170,7 @@
               "lore": [
                 [
                   {
-                    "text": "(Drop item to deploy tower)",
+                    "text": "(Drop item [Q] to deploy tower)",
                     "color": "gray",
                     "italic": true
                   }

@@ -37,7 +37,7 @@
               "lore": [
                 [
                   {
-                    "text": "Throw to summon ",
+                    "text": "Throw (Right click) to summon ",
                     "color": "gray",
                     "italic": true
                   },
